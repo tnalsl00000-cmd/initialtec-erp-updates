@@ -1,1 +1,1 @@
-{"versionCode":26,"versionName":"1.3.4","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"989707ade0eb821728a4261cbdcd332d6e3b9d7ea6aa8637260274f818a08e53","notes":"생산오더 현황 renderOrders 함수 복구, 메인 업데이트 확인/로그아웃 2등분 UI 유지"}
+{"versionCode":27,"versionName":"1.3.5","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"1e083caf85bf03239c01f675901540e6a76ab8c778ec55bdf3290654d9602c4a","notes":"재고조회 화면과 조회결과 복사에서 재고 소수점을 절삭해 정수로 표시"}
