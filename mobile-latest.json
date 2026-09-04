@@ -1,1 +1,1 @@
-{"versionCode":17,"versionName":"1.2.5","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"7d3cf0350863568a252b1e0f8195750aefc379547f133c3b98b0791e2e15cade","notes":"상단 뒤로가기·제목·종료 영역을 상태바 아래로 이동"}
+{"versionCode":18,"versionName":"1.2.6","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"fad90da032c934a8bd4a0b12ba8c4d785cfaa0c2df1a0a39b4f267962102fcd1","notes":"생산오더 현황을 mobile_views 없이 ERP Firestore 원본 데이터에서 직접 조회"}
