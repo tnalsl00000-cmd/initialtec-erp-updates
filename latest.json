@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "hasUpdate": false,
-  "version": "1.1.0",
-  "builtAt": "2026-09-04 13:31:00",
-  "sizeBytes": 0,
-  "notes": "INITIALTEC ERP Firebase 직결판 자동업데이트 채널 초기화",
-  "packageUrl": "",
-  "sha256": ""
+  "hasUpdate": true,
+  "version": "1.1.1",
+  "builtAt": "2026-09-04 05:12:13",
+  "sizeBytes": 3875968,
+  "notes": "INITIALTEC ERP Firebase Cloud update",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
+  "sha256": "EB12FFD1163EB046C5E4944ECDF669FDDBF9D61690F845F572FE862D193620B3"
 }
