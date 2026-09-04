@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.2",
-  "builtAt": "2026-09-04 05:40:56",
-  "sizeBytes": 3900288,
+  "version": "1.1.3",
+  "builtAt": "2026-09-04 05:47:57",
+  "sizeBytes": 3900289,
   "notes": "INITIALTEC ERP Firebase Cloud update",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "0E6AEFACF6605A14A3A5D30D14747DF3DDFFB03D804C0BF97306287DBD629C73"
+  "sha256": "5E894244FBFDB7ACE50A02EA5867D3DDBE00CDE1555F9FADF7E60828A69B2085"
 }
