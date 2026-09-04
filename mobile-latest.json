@@ -1,1 +1,1 @@
-{"versionCode":27,"versionName":"1.3.5","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"29ff9082bb236063088391c86df7e2bf7a2fd28c0c97b2426ad1ae2cadea6eaa","notes":"재고조회 화면과 조회결과 복사에서 재고 소수점을 절삭해 정수로 표시"}
+{"versionCode":28,"versionName":"1.3.6","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"d60e2f40378200d705c597552896b22d98630d232e8ceb2f242d7cc98eefaccb","notes":"모든 모바일 등록 작업에 서버 처리 결과, 실패 원인, 상태, 명령ID 진단 팝업 추가"}
