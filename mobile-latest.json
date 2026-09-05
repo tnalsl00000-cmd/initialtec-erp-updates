@@ -1,1 +1,1 @@
-{"versionCode":100,"versionName":"2.0.0","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"732c03fe8ba4666ebd6295f4eb7f120c6f09d94fefc984d868383935b54e80bc","notes":"모바일 전용 UI 전면 재작성, 큐 제거, Firebase 직접 등록 구조"}
+{"versionCode":101,"versionName":"2.0.1","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"8cfa968009da521df3b4165acbcc41f480d77caf8b5af59b6c3e4a6df35207fe","notes":"앱 실행 시 자동 버전 체크 및 앱 내부 업데이트 기능 복구"}
