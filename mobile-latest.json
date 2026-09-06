@@ -1,1 +1,1 @@
-{"versionCode":111,"versionName":"2.1.1","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"a3f8f88141024c3716d00f796348cdb7133acdaa36d014f2ac99f283ebde71af","notes":"조회·등록 빠른메뉴를 하나의 통합 빠른메뉴로 변경, 기존 선택값 자동 통합"}
+{"versionCode":112,"versionName":"2.1.2","apkUrl":"https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_MOBILE.apk","sha256":"4a05c4199f382970ba225cdb293ced466ca33bccdeaab04a02258b667cd166f5","notes":"통합 빠른메뉴에서 조회 후 뒤로가기를 눌러도 빠른메뉴가 유지되도록 수정"}
