@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.25",
-  "builtAt": "2026-09-07 07:04:39",
-  "sizeBytes": 3939513,
+  "version": "1.1.26",
+  "builtAt": "2026-09-07 07:04:46",
+  "sizeBytes": 3939505,
   "notes": "필름 삭제 개선: 기계 연결만 있는 미사용 필름은 안전 삭제, 과거 생산/입출고 이력이 있는 필름은 이력 보존 후 목록에서 숨김, 현재고가 남은 필름은 삭제 차단",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "F789D5124E57E070C42E3944ECE97F219FF07034B9C6E4D80081DFF56C197B55"
+  "sha256": "55AADDB143000D0CCBA1914B96653180C07AC39354258CB852690DF8DF99E4A7"
 }
