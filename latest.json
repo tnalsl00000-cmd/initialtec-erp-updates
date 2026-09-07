@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.27",
-  "builtAt": "2026-09-07 09:41:05",
-  "sizeBytes": 3957799,
-  "notes": "필름 삭제 개선: 기계 연결만 있는 미사용 필름은 안전 삭제, 과거 생산/입출고 이력이 있는 필름은 이력 보존 후 목록에서 숨김, 현재고가 남은 필름은 삭제 차단",
+  "builtAt": "2026-09-07 09:41:41",
+  "sizeBytes": 3959085,
+  "notes": "인원관리 1차 추가: 직원목록, 월 출퇴근관리, 연차관리, 급여자료, 기존 CSV 일괄이관, 관리자 전용 개인정보 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "34AC53CDB6F62AE7CEED05D1FF2EED49166786F4B50428A3C5F4D92E36D3CE3C"
+  "sha256": "A5DC707804DEBF31DCD8E66E72E94BEC695F5A0F5AE4D5ABFF17469F1AD7217A"
 }
