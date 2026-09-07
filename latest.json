@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.10",
-  "builtAt": "2026-09-07 01:00:35",
-  "sizeBytes": 3915861,
-  "notes": "재고 구분 완제품/원자재/부자재 분리 및 구분 필터 추가",
+  "builtAt": "2026-09-07 01:00:43",
+  "sizeBytes": 3916214,
+  "notes": "재고 구분 완제품/원자재/부자재 분리 및 다중선택 필터 적용",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "143C05AC927B81A610626918942536CB86D45BB50ACCD02BF4F8675BB0FDDB04"
+  "sha256": "64C26FE2AFA196A134E5938C3B5157877B38EC051A6A1633A2FD621757F714DD"
 }
