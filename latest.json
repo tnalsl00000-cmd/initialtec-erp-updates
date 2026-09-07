@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.13",
-  "builtAt": "2026-09-07 01:38:07",
-  "sizeBytes": 3917135,
-  "notes": "제품 정상/휴면/단종 상태, 연결 자재 자동상태, 재고 상태필터 기본 정상+휴면 적용",
+  "builtAt": "2026-09-07 01:38:48",
+  "sizeBytes": 3922944,
+  "notes": "제품·자재·레시피·고객사 제품목록 상태필터 확대, 정상+휴면 기본선택, PC Firebase 계정 생성/권한/사용중지/비밀번호 재설정 메일 지원",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "FC7B389F6DB87432917F178C34D874CB1042ABDF2B4A781A3FB9F79E1A9F5433"
+  "sha256": "96E0F9AEAC2B53E11CE80343D228DD6751C0C4DA486A3F03595D2BFC23C6538A"
 }
