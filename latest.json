@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.25",
-  "builtAt": "2026-09-07 06:55:33",
-  "sizeBytes": 3939492,
-  "notes": "스케줄표 정리: 기존 달력처럼 심플한 배치로 조정, 일정은 점+텍스트 형태로 간소화, 완료는 텍스트 버튼 대신 작은 테두리 ✓ 버튼으로 변경",
+  "builtAt": "2026-09-07 07:03:52",
+  "sizeBytes": 3939498,
+  "notes": "필름 삭제 개선: 기계 연결만 있는 미사용 필름은 안전 삭제, 과거 생산/입출고 이력이 있는 필름은 이력 보존 후 목록에서 숨김, 현재고가 남은 필름은 삭제 차단",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "D144EB6A9938F93EC9DFEC37D7CCA405215B5E40658653A6968E08B1FC2164A1"
+  "sha256": "E928D143ACDC30E3BD6E5643B4B8B8F6641228159F7FDD4410A3823CE7DFFB3A"
 }
