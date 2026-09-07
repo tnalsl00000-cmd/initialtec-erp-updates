@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.27",
-  "builtAt": "2026-09-07 09:41:41",
-  "sizeBytes": 3959085,
+  "version": "1.1.28",
+  "builtAt": "2026-09-07 09:57:41",
+  "sizeBytes": 3969420,
   "notes": "인원관리 1차 추가: 직원목록, 월 출퇴근관리, 연차관리, 급여자료, 기존 CSV 일괄이관, 관리자 전용 개인정보 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "A5DC707804DEBF31DCD8E66E72E94BEC695F5A0F5AE4D5ABFF17469F1AD7217A"
+  "sha256": "03B901F8F20C14126FCA5DA8DC8335C9ADBC738DF1CA80A1573DE044A48F4095"
 }
