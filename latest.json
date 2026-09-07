@@ -4,7 +4,7 @@
   "version": "1.1.23",
   "builtAt": "2026-09-07 06:36:13",
   "sizeBytes": 3940246,
-  "notes": "필름 삭제 개선: 기계 연결만 있는 미사용 필름은 안전 삭제, 과거 생산/입출고 이력이 있는 필름은 이력 보존 후 목록에서 숨김, 현재고가 남은 필름은 삭제 차단",
+  "notes": "스케줄표 시인성 리뉴얼: 오늘 강조, 날짜/주말 구분 강화, 일정 카드형 표시, 완료 일정 흐림 처리, 오늘·월간·미완료·완료 건수 요약, 완료 숨김 및 날짜별 빠른 등록 추가",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
   "sha256": "F0DF48A10E4FFB8DC2BAD411384C2DA22FD784F08E5B21FD8CD5F68DEC649CE0"
 }
