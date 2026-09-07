@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.12",
-  "builtAt": "2026-09-07 01:24:09",
-  "sizeBytes": 3917131,
+  "builtAt": "2026-09-07 01:38:03",
+  "sizeBytes": 3917136,
   "notes": "제품 정상/휴면/단종 상태, 연결 자재 자동상태, 재고 상태필터 기본 정상+휴면 적용",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "26BE4B8F3C340FD21563877C0904C61C78FC512C7C8D551B260521F356571618"
+  "sha256": "75BB3C3BC61FA7CCAE5EF0893BD6CA40189F4D94EA15A453B8C2289999CED21A"
 }
