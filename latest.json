@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.21",
-  "builtAt": "2026-09-07 05:52:44",
-  "sizeBytes": 3937865,
-  "notes": "캡슐 필름 선택 개선: 자재명은 제조사+상/하측+두께+폭으로 단축, 490/320 상측·510/340 하측 자동구분, 기계생산 상·하측 SET 동일사용량 입력 추가",
+  "version": "1.1.22",
+  "builtAt": "2026-09-07 06:06:14",
+  "sizeBytes": 3938546,
+  "notes": "필름 삭제 개선: 기계 연결만 있는 미사용 필름은 안전 삭제, 과거 생산/입출고 이력이 있는 필름은 이력 보존 후 목록에서 숨김, 현재고가 남은 필름은 삭제 차단",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "F49A817B06F532D10B4214571652462B9B5B69F54FB60171A608700E4A7ACAB0"
+  "sha256": "E53D1FFAC83647520421378FBD40F31D933BAF7604104CA99B9F94B90BA5A7EB"
 }
