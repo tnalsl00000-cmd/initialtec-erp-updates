@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.19",
-  "builtAt": "2026-09-07 05:29:34",
-  "sizeBytes": 3936616,
+  "version": "1.1.20",
+  "builtAt": "2026-09-07 05:36:07",
+  "sizeBytes": 3936742,
   "notes": "필름·롤자재 등록 개편: 제조사 우선, 자재명 자동생성, 4종 자재구분, PVA 두께 기본값/기타입력, 복사등록, 부직포 길이 mm 지원",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "3D470F729E8F945B64DEA48A8EF88618992C27EFA9B7EFFF48C66EC176D2CCEB"
+  "sha256": "C6CEB845055B51440C65515012158810966112C673E318214B81B5F29970A55B"
 }
