@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.13",
-  "builtAt": "2026-09-07 01:38:48",
-  "sizeBytes": 3922944,
-  "notes": "제품·자재·레시피·고객사 제품목록 상태필터 확대, 정상+휴면 기본선택, PC Firebase 계정 생성/권한/사용중지/비밀번호 재설정 메일 지원",
+  "version": "1.1.14",
+  "builtAt": "2026-09-07 01:56:29",
+  "sizeBytes": 3930850,
+  "notes": "마스터 권한 신설, 마스터 전용 권한설정, 권한등급별 조회/등록/수정/삭제 설정, 마스터 계정 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "96E0F9AEAC2B53E11CE80343D228DD6751C0C4DA486A3F03595D2BFC23C6538A"
+  "sha256": "44F6C3EAF38CF6F35FEA91F192A661759EDEAF1E4A8C76E10D3D3A47997454A1"
 }
