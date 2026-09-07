@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.14",
-  "builtAt": "2026-09-07 02:11:23",
-  "sizeBytes": 3930857,
+  "version": "1.1.15",
+  "builtAt": "2026-09-07 02:11:35",
+  "sizeBytes": 3930864,
   "notes": "마스터 권한 신설, 마스터 전용 권한설정, 권한등급별 조회/등록/수정/삭제 설정, 마스터 계정 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "5B71BC9BBDBFFBC1A57A1310FEF87902CB2ED6536E39DF7245CF72B412992854"
+  "sha256": "1F256D00EEDAC07D64BAEE0F84B5EDB34BBEEBEBB6550D19FC8042E1E79E92AB"
 }
