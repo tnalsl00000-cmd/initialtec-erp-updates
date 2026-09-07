@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.28",
-  "builtAt": "2026-09-07 09:57:41",
-  "sizeBytes": 3969420,
-  "notes": "관리자 Firebase 용량 확인 추가: Firestore 업무데이터 추정 사용량, Firebase Storage 실제 사용량, ERP 클라우드 합계, PC 로컬 캐시와 테이블별 용량 표시",
+  "builtAt": "2026-09-07 10:09:52",
+  "sizeBytes": 3969443,
+  "notes": "인원관리 1차 추가: 직원목록, 월 출퇴근관리, 연차관리, 급여자료, 기존 CSV 일괄이관, 관리자 전용 개인정보 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "03B901F8F20C14126FCA5DA8DC8335C9ADBC738DF1CA80A1573DE044A48F4095"
+  "sha256": "D5879AA3F700C4832DBDEEC44199670EB6107ED88F62A66B275D5E06AE5E1C6E"
 }
