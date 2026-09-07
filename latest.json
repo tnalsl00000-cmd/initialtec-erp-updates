@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.17",
-  "builtAt": "2026-09-07 02:33:08",
-  "sizeBytes": 3931613,
+  "builtAt": "2026-09-07 02:42:18",
+  "sizeBytes": 3931605,
   "notes": "기계생산등록 열기 오류 수정, 노트북 창 이동/크기조절 개선, 마스터 권한 관리",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "3AE6AFEC84F815E5037039A988828B41E7ACAC7EC37BA968288E8271AC1D3DF4"
+  "sha256": "27F75AC095D11C4037D6943B4E209F4B19AAC2A31CF3E778BBC5EC79F132A13E"
 }
