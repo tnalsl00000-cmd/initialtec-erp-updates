@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.29",
-  "builtAt": "2026-09-07 10:13:33",
-  "sizeBytes": 3969427,
-  "notes": "상단 메뉴 정리: 메뉴 간격을 줄이고 관리자 메뉴를 앞쪽으로 이동해 인원관리 추가 후에도 관리자 메뉴와 Firebase 용량 확인이 정상 노출되도록 수정",
+  "builtAt": "2026-09-07 10:34:03",
+  "sizeBytes": 3980887,
+  "notes": "인원관리 1차 추가: 직원목록, 월 출퇴근관리, 연차관리, 급여자료, 기존 CSV 일괄이관, 관리자 전용 개인정보 보호",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "10BD7862B3E6B0C0F122E481C63D14C809D9AC66064C4ABB9D0FA72B78CA466E"
+  "sha256": "B33B6978C9415274765EC1D8897619AAAFB48AC431810244026587648FC9D9AB"
 }
