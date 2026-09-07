@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.16",
-  "builtAt": "2026-09-07 02:17:11",
-  "sizeBytes": 3931607,
-  "notes": "마스터 권한 신설, 마스터 전용 권한설정, 권한등급별 조회/등록/수정/삭제 설정, 마스터 계정 보호",
+  "version": "1.1.17",
+  "builtAt": "2026-09-07 02:33:08",
+  "sizeBytes": 3931613,
+  "notes": "기계생산등록 열기 오류 수정, 노트북 창 이동/크기조절 개선, 마스터 권한 관리",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "78ADAB0C3155B2037C1398189823F19FC87C0B966CC6FA583C55464690059319"
+  "sha256": "3AE6AFEC84F815E5037039A988828B41E7ACAC7EC37BA968288E8271AC1D3DF4"
 }
