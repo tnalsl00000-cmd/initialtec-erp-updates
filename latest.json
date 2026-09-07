@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.9",
-  "builtAt": "2026-09-04 07:31:21",
-  "sizeBytes": 3915557,
-  "notes": "INITIALTEC ERP Firebase Cloud update",
+  "version": "1.1.10",
+  "builtAt": "2026-09-07 00:50:06",
+  "sizeBytes": 3915861,
+  "notes": "재고 구분 완제품/원자재/부자재 분리 및 구분 필터 추가",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "D126A577898DEA7C4258E01A58EE33E647BB13897F0C726B0B411472CE225AAB"
+  "sha256": "C61EF95F93AA61DA94D353616C0FAC717DB4445FD11931AF40CA824DBFDD654E"
 }
