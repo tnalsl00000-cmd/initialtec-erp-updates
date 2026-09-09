@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.51",
-  "builtAt": "2026-09-09 03:49:43",
-  "sizeBytes": 4052825,
-  "notes": "기존 인원관리 복원: 관리자 하위 이동, 기존 웹 출퇴근·급여·연차·직원관리 흐름 및 계산식 복원, 전체 CSV/ZIP 백업 복원 지원",
+  "builtAt": "2026-09-09 03:51:05",
+  "sizeBytes": 4052830,
+  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "EC789B013670AF29B00EFF4E6057503940BD433A77CCCF4891C81BF4C39C3AB4"
+  "sha256": "6E8DB124F55D45260798AF634D454DDBD34DD973D9209E5E1E1A3453CC472984"
 }
