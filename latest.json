@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.57",
-  "builtAt": "2026-09-09 07:20:51",
-  "sizeBytes": 4090480,
-  "notes": "양식관리 개선: 1팀 원본파일 바로가기 방식 폐기, 11종 ERP 자체 양식 폼 신설, 문서별 입력값 저장·미리보기·인쇄, 향후 일생산·인원·입출고 데이터 자동완성 연결 기반 추가",
+  "builtAt": "2026-09-09 07:21:07",
+  "sizeBytes": 4090479,
+  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "9A458449F19AA9536FEB71348C20CC0147A148B14D237312EBFD4BFE39C2C4C5"
+  "sha256": "D991264CFCBA98CD2F73E60ECAE14081DA9F093ECEF4707623FED57FC1B0AFB0"
 }
