@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.49",
-  "builtAt": "2026-09-08 07:04:33",
-  "sizeBytes": 4043628,
+  "version": "1.1.50",
+  "builtAt": "2026-09-09 03:39:18",
+  "sizeBytes": 4051195,
   "notes": "기존 인원관리 복원: 관리자 하위 이동, 기존 웹 출퇴근·급여·연차·직원관리 흐름 및 계산식 복원, 전체 CSV/ZIP 백업 복원 지원",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "AE8454A64D70DC09CA64C62B20935161CCDD5DEE545BE7B55DB718E42F1A50EC"
+  "sha256": "2F2198B0960D5C7CF51AECA602C287A046B22A3DB8CDDF52515D4C664F601B1F"
 }
