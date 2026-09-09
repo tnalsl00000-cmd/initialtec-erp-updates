@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.53",
-  "builtAt": "2026-09-09 05:57:52",
-  "sizeBytes": 4069830,
+  "builtAt": "2026-09-09 05:58:38",
+  "sizeBytes": 4068007,
   "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "748201804013B7DBC758E5AB32CF8842304F99CC88DEC27DD6D2281CB38E5791"
+  "sha256": "52DD73D909A4C3B9446ED44D6B781C191FE58AA9C668CAC1C3257FDE583D19B6"
 }
