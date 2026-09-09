@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.53",
-  "builtAt": "2026-09-09 05:14:07",
-  "sizeBytes": 4067510,
-  "notes": "양식 메뉴 신설: 제품표준서 등록·검색·수정·미리보기·인쇄, 원본 4페이지 형식 재현, 문서 발행사 주식회사 이니셜텍 적용, 공용 주의사항·응급처치·작업주의사항 고정 템플릿화",
+  "builtAt": "2026-09-09 05:57:00",
+  "sizeBytes": 4069413,
+  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "142F44DA2A0ADF309950BC9F4FE6EBDC6BC92B81656B39A8C0D312D81FF00654"
+  "sha256": "5712ED5D45C7A301B8B835F9E9A9855DCD89B6C4609DF46BD30D6919EB4FF256"
 }
