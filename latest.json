@@ -4,7 +4,7 @@
   "version": "1.1.57",
   "builtAt": "2026-09-09 06:59:57",
   "sizeBytes": 4078156,
-  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
+  "notes": "양식관리 개선: 양식 > 1팀 신설, PDF·엑셀 양식 ZIP 등록/갱신, 검색·분류·양식확인·인쇄 지원, 인쇄라벨(.abr/.~abr) 자동 제외",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
   "sha256": "C122570E564D777D0118B89B27006EB21B0297A9EDD165C6CAA4DC3265E3BD72"
 }
