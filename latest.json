@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.54",
-  "builtAt": "2026-09-09 05:58:56",
-  "sizeBytes": 4068003,
-  "notes": "제품표준서 개선: 기존 작성본 보존, 제품별 권장량·성분·충진/포장값 개별 저장, 양식 수정 탭 추가, 페이지번호 제거, 화면/인쇄 글자 확대, 신규 문서 샘플값 자동복사 제거",
+  "builtAt": "2026-09-09 06:20:25",
+  "sizeBytes": 4069889,
+  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "A54A0A63752826CEFB44B0BD31806E64D96D34AB980C79FDCCF4C12B7142E377"
+  "sha256": "506B973AEE8703299534A225CD3C2BED9D9707A33F143486868724B624D75185"
 }
