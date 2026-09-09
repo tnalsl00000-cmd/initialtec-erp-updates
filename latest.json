@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.60",
-  "builtAt": "2026-09-09 08:22:40",
-  "sizeBytes": 4101383,
+  "version": "1.1.61",
+  "builtAt": "2026-09-09 10:59:52",
+  "sizeBytes": 4114510,
   "notes": "양식관리 개선: 1팀 원본파일 바로가기 방식 폐기, 11종 ERP 자체 양식 폼 신설, 문서별 입력값 저장·미리보기·인쇄, 향후 일생산·인원·입출고 데이터 자동완성 연결 기반 추가",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "6541A5011F2A09F1303235421D98FC27868E638E65867CEAD56677805C89446C"
+  "sha256": "F7B858B7DF2845CD5C8FDD7AC5EA05605872066AA503BE715FF8DBD8124D6DD0"
 }
