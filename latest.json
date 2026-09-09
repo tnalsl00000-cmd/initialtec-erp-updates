@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.50",
-  "builtAt": "2026-09-09 03:39:18",
-  "sizeBytes": 4051195,
-  "notes": "ERP 1차 개선: 자재검색·입고 R1 기본값, 일생산 불량 3줄/연결 부자재/통계, 레시피 자재교체 R버전 자동증가, 고객사 거래상태 연동, 생산오더 상세·출하/불량 이력, 재고 필터 및 대시보드 정리",
+  "builtAt": "2026-09-09 03:48:51",
+  "sizeBytes": 4052710,
+  "notes": "기존 인원관리 복원: 관리자 하위 이동, 기존 웹 출퇴근·급여·연차·직원관리 흐름 및 계산식 복원, 전체 CSV/ZIP 백업 복원 지원",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "2F2198B0960D5C7CF51AECA602C287A046B22A3DB8CDDF52515D4C664F601B1F"
+  "sha256": "58EEE6784532ED47EA1C3BB40C7BF3656F5FFB31F0EB4A19A232C0926760EE9B"
 }
