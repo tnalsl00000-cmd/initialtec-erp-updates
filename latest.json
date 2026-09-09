@@ -4,7 +4,7 @@
   "version": "1.1.55",
   "builtAt": "2026-09-09 06:22:01",
   "sizeBytes": 4071240,
-  "notes": "출고관리 개선: 상세정보 수정 기능 복원, 출고일·납품지 직접 수정, 출고 ID/재고/수량/상태 유지, 변경 출고일을 거래명세서·검사성적서 납품일에 자동 반영",
+  "notes": "제품표준서 권장사용량 개선: 8kg/4kg 고정 기준 제거, 제품별 기준명+사용량 자유 입력, 행 추가/삭제 지원, 기존 작성값 보존 및 새 구조 호환, 미리보기/인쇄에도 자유형 권장량 반영",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
   "sha256": "A8C0FE946CCBE0BB36C9C4CE0FDE69D4F29BD71493EF1BE130ED3DD958EF9A3A"
 }
