@@ -4,7 +4,7 @@
   "version": "1.1.62",
   "builtAt": "2026-09-10 03:07:01",
   "sizeBytes": 4203886,
-  "notes": "양식관리 개선: 1팀 원본파일 바로가기 방식 폐기, 11종 ERP 자체 양식 폼 신설, 문서별 입력값 저장·미리보기·인쇄, 향후 일생산·인원·입출고 데이터 자동완성 연결 기반 추가",
+  "notes": "3팀 양식 1차 적용: 원본 엑셀 레이아웃 기반 검증 완료 13종 ERP 양식 추가. 4호기 가동/필름LOT, TBM 일지/주간, 식기 설비이력, 1·2·3·4호기 액상입고, 온습도, 일일 설비안전, 포충등 관리 포함. 타블렛 묶음 13종은 원본 전송 손상 문제로 이번 버전에서 보류.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
   "sha256": "F8D67A7B45092EAB7520BE44DD9F6EAE85099EB96A7784053B9789FE44B17A18"
 }
