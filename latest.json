@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.87",
-  "builtAt": "2026-09-11 01:16:02",
-  "sizeBytes": 4240113,
-  "notes": "기계 상세 더블클릭 오류 수정 · 생산실적등록 버튼 중복 Visual 연결 제거",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip?v=1.1.87-011602",
-  "sha256": "0EC2740512980A9690DD6F3F7CA50D6D0550B0A26596B42E7C452CE3EA0F83F8"
+  "version": "1.1.88",
+  "builtAt": "2026-09-11 01:20:08",
+  "sizeBytes": 4240186,
+  "notes": "기계 생산이력: 상·하측 필름 제조사가 같으면 사용자재를 제조사명으로 간략 표시, 서로 다르면 상세 표시 유지, LOT 유지, 연결 생산오더의 제품명 표시 보완",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
+  "sha256": "D238F619F170716D3FB3AFB9C10E71E90E18E85116C16A065B7969958812551D"
 }
