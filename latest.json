@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.84",
-  "builtAt": "2026-09-10 23:30:09",
-  "sizeBytes": 4239644,
+  "version": "1.1.85",
+  "builtAt": "2026-09-11 00:37:25",
+  "sizeBytes": 4239758,
   "notes": "기계 생산이력: 상·하측 필름 제조사가 같으면 사용자재를 제조사명으로 간략 표시, 서로 다르면 상세 표시 유지, LOT 유지, 연결 생산오더의 제품명 표시 보완",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "32DAB4536202D080898AFB5C50F2396DDF535CEF9145F2CD716E83FAF1D9E443"
+  "sha256": "CA3434B40AC71D74AF087BFCEFA3FC4D0227BCB73A465A2234C6C161170E407F"
 }
