@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.97",
-  "builtAt": "2026-09-14 11:39:05",
-  "sizeBytes": 4268360,
-  "notes": "생산오더 프로젝트: 필름·자재 사용내역 접이식 표시, 자재·LOT별 오더 누적사용 합계, 작업표시줄/창 아이콘 표시 개선",
+  "builtAt": "2026-09-14 12:27:40",
+  "sizeBytes": 4268354,
+  "notes": "기계 생산이력: 상·하측 필름 제조사가 같으면 사용자재를 제조사명으로 간략 표시, 서로 다르면 상세 표시 유지, LOT 유지, 연결 생산오더의 제품명 표시 보완",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "9E0404D7A33AD9ADBAAA3CB8EB526CF99AC5C561BDDE2C8F2A668E44727CA4C1"
+  "sha256": "C1C5C2A4C88DFD79DECC068D6AE5E301E9D0FF3D0E56B72DCCEE518336464572"
 }
