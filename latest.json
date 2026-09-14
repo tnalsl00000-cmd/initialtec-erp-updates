@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.98",
-  "builtAt": "2026-09-14 13:07:40",
-  "sizeBytes": 4268372,
-  "notes": "Firestore 읽기량 추가 최적화: 구형 클라이언트가 revision 토큰을 남겨도 changedTables 기준으로 필요한 테이블만 동기화합니다. 생산오더 필름·자재 폴딩 및 작업표시줄 아이콘 개선도 포함합니다.",
+  "version": "1.1.99",
+  "builtAt": "2026-09-14 13:12:33",
+  "sizeBytes": 4269078,
+  "notes": "인터넷 바로가기를 로그인 아이디별 개인 설정으로 분리했습니다. 기존 공용 바로가기는 최초 관리자 계정에 자동 연결하며, 다른 계정에는 보이지 않습니다. Firestore 읽기량 최적화와 생산오더 자재 폴딩/작업표시줄 아이콘 개선도 포함합니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "9B8F8747FC81704F188409546054C15E1FA6EEE41D12E64C5FA07629FF381C66"
+  "sha256": "AD5B560D3623E9241246DF764ECB058C09A4DF7D25FE42290C207B02AE42F0AE"
 }
