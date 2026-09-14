@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.97",
-  "builtAt": "2026-09-14 12:27:40",
-  "sizeBytes": 4268354,
-  "notes": "기계 생산이력: 상·하측 필름 제조사가 같으면 사용자재를 제조사명으로 간략 표시, 서로 다르면 상세 표시 유지, LOT 유지, 연결 생산오더의 제품명 표시 보완",
+  "version": "1.1.98",
+  "builtAt": "2026-09-14 12:30:02",
+  "sizeBytes": 4268374,
+  "notes": "Firestore 읽기량 추가 최적화: 구형 클라이언트가 revision 토큰을 남겨도 changedTables 기준으로 필요한 테이블만 동기화합니다. 생산오더 필름·자재 폴딩 및 작업표시줄 아이콘 개선도 포함합니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "C1C5C2A4C88DFD79DECC068D6AE5E301E9D0FF3D0E56B72DCCEE518336464572"
+  "sha256": "6F13B92EE15539CB1F3E4C894FBFC57AD56681A51742A7BBEC8BB19116DF875B"
 }
