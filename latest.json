@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.104",
-  "builtAt": "2026-09-15 07:56:46",
-  "sizeBytes": 4272725,
-  "notes": "ERP 실행창·바탕화면·작업표시줄 고정 바로가기의 앱 식별 정보를 통일했습니다. 삭제한 바로가기는 다시 만들지 않습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "738FA51F0C698AFE85ECF32068E362CCA48E718D37A9CD6472AE1780A4C1EB83"
+  "version": "1.1.105",
+  "builtAt": "2026-09-15 07:59:05",
+  "sizeBytes": 4272728,
+  "notes": "업데이트 ZIP을 버전별 파일로 분리해 메타정보와 실제 파일이 엇갈리는 문제를 막았습니다. 바탕화면 아이콘 캐시 수정도 포함합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.105.zip",
+  "sha256": "37BB2F9F446540E72EDAD3AF39C64A90E9392011B5177532BC9CEF9FF12A121E"
 }
