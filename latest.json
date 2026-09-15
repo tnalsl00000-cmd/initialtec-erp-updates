@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.101",
-  "builtAt": "2026-09-15 07:17:00",
-  "sizeBytes": 4270612,
-  "notes": "작업표시줄 아이콘을 창 생성 전에 설정하고 Windows Shell에 ERP 아이콘을 직접 연결하도록 개선했습니다.",
+  "version": "1.1.102",
+  "builtAt": "2026-09-15 07:31:02",
+  "sizeBytes": 4272211,
+  "notes": "업데이트 후 실행 시 바탕화면 ERP 바로가기 아이콘을 자동으로 복구하며, 바로가기가 없으면 생성합니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "7C76D00071F739A82D80BF6B3965D839F35CCD3C2B38AC7F73CEAFD717C86102"
+  "sha256": "56EB59E3058B11C571B21B5C75CB5C66EF58A7DA94902C12700F41CBB5DD91E4"
 }
