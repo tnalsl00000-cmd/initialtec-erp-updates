@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.105",
-  "builtAt": "2026-09-15 07:59:42",
-  "sizeBytes": 4272728,
+  "version": "1.1.106",
+  "builtAt": "2026-09-15 08:01:54",
+  "sizeBytes": 4272727,
   "notes": "업데이트 ZIP을 버전별 파일로 분리해 메타정보와 실제 파일이 엇갈리는 문제를 막았습니다. 바탕화면 아이콘 캐시 수정도 포함합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.105.zip",
-  "sha256": "1C5A652A335BB6B2C4CBC473FBB2064833E002450AE360DBE2EDECADEFA986EE"
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.106.zip",
+  "sha256": "250969B02A7EA12CBA9F2392E6DE743C93C24EFD09DE2C211B91449FAB4D9D42"
 }
