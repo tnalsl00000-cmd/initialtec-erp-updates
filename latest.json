@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.102",
-  "builtAt": "2026-09-15 07:31:02",
-  "sizeBytes": 4272211,
-  "notes": "업데이트 후 실행 시 바탕화면 ERP 바로가기 아이콘을 자동으로 복구하며, 바로가기가 없으면 생성합니다.",
+  "version": "1.1.103",
+  "builtAt": "2026-09-15 07:43:27",
+  "sizeBytes": 4272738,
+  "notes": "ERP 실행창·바탕화면·작업표시줄 고정 바로가기의 앱 식별 정보를 통일했습니다. 삭제한 바로가기는 다시 만들지 않습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "56EB59E3058B11C571B21B5C75CB5C66EF58A7DA94902C12700F41CBB5DD91E4"
+  "sha256": "06AB81D7F5B563D0A2FD91A12BCED4A5BF9AC36E78AB4CEE1EA712D59FE716DD"
 }
