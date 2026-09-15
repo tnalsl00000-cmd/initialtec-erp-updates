@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.107",
-  "builtAt": "2026-09-15 14:42:30",
-  "sizeBytes": 4274984,
+  "version": "1.1.108",
+  "builtAt": "2026-09-15 14:44:51",
+  "sizeBytes": 4275053,
   "notes": "다른 PC/모바일의 변경을 더 빨리 확인하도록 개선했습니다. 자동 확인은 revision 문서만 읽고, 변경이 있을 때 해당 테이블만 동기화하며 자동 전체 DB 읽기는 차단했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.107.zip",
-  "sha256": "E62BA4FEFF383599FE3E4D83D5DADBB8573735D7890F5558CAF6E544408CB914"
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.108.zip",
+  "sha256": "62D6961FE8E55A18DC9873C3508E4F6923F4DE3BF20777118C7A1064FC4404D0"
 }
