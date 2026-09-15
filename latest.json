@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.100",
-  "builtAt": "2026-09-15 00:44:19",
-  "sizeBytes": 4269084,
-  "notes": "출고 확인일시를 한국시간(KST)으로 저장하도록 수정했습니다. 기존 출고 기록은 변경하지 않습니다.",
+  "version": "1.1.101",
+  "builtAt": "2026-09-15 07:17:00",
+  "sizeBytes": 4270612,
+  "notes": "작업표시줄 아이콘을 창 생성 전에 설정하고 Windows Shell에 ERP 아이콘을 직접 연결하도록 개선했습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update.zip",
-  "sha256": "A96F29A58DBDD188934AC0CF73AF79E8857890F3BA86C6756031442F7F209D73"
+  "sha256": "7C76D00071F739A82D80BF6B3965D839F35CCD3C2B38AC7F73CEAFD717C86102"
 }
