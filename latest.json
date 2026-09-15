@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.106",
-  "builtAt": "2026-09-15 08:34:55",
-  "sizeBytes": 4272725,
-  "notes": "업데이트 ZIP을 버전별 파일로 분리해 메타정보와 실제 파일이 엇갈리는 문제를 막았습니다. 바탕화면 아이콘 캐시 수정도 포함합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.106.zip",
-  "sha256": "E46C25D6A369146AB10E0C9628B98B63EDFE1BBD8A5CDBEEF73C2355F021573C"
+  "version": "1.1.107",
+  "builtAt": "2026-09-15 08:40:29",
+  "sizeBytes": 4274929,
+  "notes": "다른 PC/모바일의 변경을 더 빨리 확인하도록 개선했습니다. 자동 확인은 revision 문서만 읽고, 변경이 있을 때 해당 테이블만 동기화하며 자동 전체 DB 읽기는 차단했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.107.zip",
+  "sha256": "66B4EAD1CD5B29A5F334E799B31198E53986FA7907B8AA38B8E2EAF351ED4576"
 }
