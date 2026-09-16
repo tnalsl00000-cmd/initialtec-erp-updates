@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.111",
-  "builtAt": "2026-09-16 08:31:21",
-  "sizeBytes": 4334045,
+  "builtAt": "2026-09-16 09:47:20",
+  "sizeBytes": 4334037,
   "notes": "생산오더 상세의 출하기록에서 같은 제품의 과거 출고까지 LOT와 함께 조회합니다. 유통기한 자동계산은 제조일을 1일차로 포함하도록 기간 종료일을 하루 앞당겼습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.111.zip",
-  "sha256": "739413591A86130CD2B6820C089EF85BDD83630F6B0749A6CE49D308613EF8CA"
+  "sha256": "74BCC681643AD0CA7D0A09A770ACA93443706AA2BC29DDA4CA5155AF174E9429"
 }
