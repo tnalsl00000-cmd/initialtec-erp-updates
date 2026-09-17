@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.115",
-  "builtAt": "2026-09-17 01:40:45",
-  "sizeBytes": 4401903,
+  "builtAt": "2026-09-17 01:47:36",
+  "sizeBytes": 4401901,
   "notes": "불량은 낱알 캡슐 기준으로 집계하고, 완제품 생산수량에 제품의 1파우치 수량을 곱한 낱알 생산수 기준으로 불량률을 계산하도록 수정했습니다. 생산오더 상세과 일생산 통계에 동일 기준을 적용했습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.115.zip",
-  "sha256": "B944BAE747592CF5114A79B6BF9BA25FE768D848D5E4969712AA43A496713617"
+  "sha256": "3755A27E2E1445F4C4325D24FC21218A89ADFB9C20838691F2B735ADA7E441FD"
 }
