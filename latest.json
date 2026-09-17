@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.118",
-  "builtAt": "2026-09-17 02:09:35",
-  "sizeBytes": 4402918,
+  "builtAt": "2026-09-17 02:16:53",
+  "sizeBytes": 4402999,
   "notes": "거래명세표의 납품자 이재진 (인) 위치에 대표자 인장이 실제 미리보기와 인쇄물에 표시되도록 수정했습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.118.zip",
-  "sha256": "79215811FCC9F69F5657282EA2E1D99EC1021C0A003DEA547FAD05EB971FBAC8"
+  "sha256": "D6B372F4556F6D28583C9292FCCF43182B989DE7280E7BA102615FBB4D9E0E51"
 }
