@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.122",
-  "builtAt": "2026-09-17 04:26:36",
-  "sizeBytes": 4425119,
-  "notes": "관리자 메뉴에 위험성평가 기능을 추가했습니다. 3×3 가능성·중대성 평가, 수시평가 사유 선택, 공정별 위험요인과 개선조치, 근로자 참여·공유 기록, 개정 이력, 개선 전후 증빙 및 7종 인쇄 문서를 지원하며 이니셜티 대표자 인장을 승인 위치에 자동 표시합니다. 개선 후 위험성이 허용기준을 초과하면 완료 처리할 수 없도록 검증합니다.",
+  "builtAt": "2026-09-17 04:46:30",
+  "sizeBytes": 4425112,
+  "notes": "거래명세표 납품자 칸의 인 위치를 고정 앵커로 바꾸고, 대표자 인장을 이름 조건 없이 해당 위치에 직접 겹쳐 표시하도록 수정했습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.122.zip",
-  "sha256": "CFC127004E7EF3B8BD4BA5AAE1E51E35AEC0FA2C7851512FCDAC4FE61BD99EBB"
+  "sha256": "E36B65CE695EF5E02299FDDD053FF0D3D9855E382A23E2864AB97FB4D2528A41"
 }
