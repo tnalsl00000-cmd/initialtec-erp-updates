@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.118",
-  "builtAt": "2026-09-17 02:16:53",
-  "sizeBytes": 4402999,
-  "notes": "거래명세표의 납품자 이재진 (인) 위치에 대표자 인장이 실제 미리보기와 인쇄물에 표시되도록 수정했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.118.zip",
-  "sha256": "D6B372F4556F6D28583C9292FCCF43182B989DE7280E7BA102615FBB4D9E0E51"
+  "version": "1.1.119",
+  "builtAt": "2026-09-17 02:18:57",
+  "sizeBytes": 4402995,
+  "notes": "거래명세표 납품자 칸의 인 위치를 고정 앵커로 바꾸고, 대표자 인장을 이름 조건 없이 해당 위치에 직접 겹쳐 표시하도록 수정했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.119.zip",
+  "sha256": "62117D8D03EF50EE54204D59929A307BB50798A9677932ED6F5E704120D39A84"
 }
