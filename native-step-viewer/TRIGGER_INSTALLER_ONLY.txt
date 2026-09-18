@@ -1,0 +1,1 @@
+rebuild installer only artifact
