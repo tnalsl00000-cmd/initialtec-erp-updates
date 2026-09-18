@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 
 APP_NAME = "CapsuleDesign STEP Viewer"
-APP_VERSION = "0.3.0"
+APP_VERSION = "0.3.1"
 
 def _shape_list_from_step(path):
     import cadquery as cq
@@ -92,8 +92,38 @@ def gui_main():
     from PySide6 import QtCore, QtGui, QtWidgets
     import pyqtgraph as pg
     import pyqtgraph.opengl as gl
+    from pyqtgraph.opengl.shaders import ShaderProgram, VertexShader, FragmentShader
 
     pg.setConfigOptions(antialias=True)
+
+    # CAD 뷰어용 밝은 양면 조명 셰이더.
+    # 기본 pyqtgraph 'shaded'는 암부가 20%까지 떨어져 금형 형상이 지나치게 어둡게 보인다.
+    ShaderProgram('cadBright', [
+        VertexShader("""
+            varying vec3 normal;
+            void main() {
+                normal = normalize(gl_NormalMatrix * gl_Normal);
+                gl_FrontColor = gl_Color;
+                gl_BackColor = gl_Color;
+                gl_Position = ftransform();
+            }
+        """),
+        FragmentShader("""
+            varying vec3 normal;
+            void main() {
+                vec3 n = normalize(normal);
+                vec3 l1 = normalize(vec3(0.70, -0.45, 0.72));
+                vec3 l2 = normalize(vec3(-0.60, 0.35, 0.78));
+                float d1 = abs(dot(n, l1));
+                float d2 = abs(dot(n, l2));
+                float rim = pow(1.0 - abs(n.z), 2.0);
+                float light = clamp(0.58 + 0.27*d1 + 0.16*d2 + 0.06*rim, 0.58, 1.04);
+                vec4 color = gl_Color;
+                color.rgb = clamp(color.rgb * light, 0.0, 1.0);
+                gl_FragColor = color;
+            }
+        """)
+    ])
 
     class Viewer(gl.GLViewWidget):
         fileDropped = QtCore.Signal(str)
@@ -276,13 +306,7 @@ def gui_main():
 
             self.statusBar().showMessage("준비")
 
-            grid = gl.GLGridItem()
-            grid.setSize(120, 120, 1)
-            grid.setSpacing(10, 10, 1)
-            grid.setColor((60, 67, 74, 70))
-            self.viewer.addItem(grid)
-            self.grid_item = grid
-
+            # 기본 격자 평면은 모델을 가려서 표시하지 않는다.
             self.apply_style()
 
         def resizeEvent(self, event):
@@ -340,15 +364,16 @@ def gui_main():
                 data = _mesh_and_stats(path)
                 self.clear_model()
 
-                face_color = (0.78, 0.80, 0.91, 1.0)
-                edge_color = (0.27, 0.31, 0.39, 0.82)
+                # 밝은 CAD 실버 톤. 곡면 음영은 cadBright 셰이더가 담당한다.
+                face_color = (0.90, 0.92, 0.99, 1.0)
+                edge_color = (0.32, 0.37, 0.48, 0.62)
 
                 for name, verts, faces in data["meshes"]:
                     md = gl.MeshData(vertexes=verts, faces=faces)
 
                     face = gl.GLMeshItem(
                         meshdata=md, smooth=True,
-                        color=face_color, shader="shaded",
+                        color=face_color, shader="cadBright",
                         drawEdges=False, drawFaces=True
                     )
                     face.setGLOptions("opaque")
