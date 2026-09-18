@@ -1,12 +1,12 @@
 [Setup]
 AppId={{A98F5167-09D9-4E0B-846D-85793FC02F8C}
 AppName=CapsuleDesign STEP Viewer
-AppVersion=0.3.0
+AppVersion=0.3.1
 AppPublisher=INITIALTEC
 DefaultDirName={localappdata}\Programs\CapsuleDesign STEP Viewer
 DefaultGroupName=CapsuleDesign STEP Viewer
 OutputDir=dist
-OutputBaseFilename=CapsuleDesign_STEPViewer_Setup_v0.3.0
+OutputBaseFilename=CapsuleDesign_STEPViewer_Setup_v0.3.1
 Compression=lzma2
 SolidCompression=yes
 WizardStyle=modern
