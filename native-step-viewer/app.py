@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 
 APP_NAME = "CapsuleDesign STEP Viewer"
-APP_VERSION = "0.3.1"
+APP_VERSION = "0.3.2"
 
 def _shape_list_from_step(path):
     import cadquery as cq
@@ -162,12 +162,115 @@ def gui_main():
 
     class Viewer(gl.GLViewWidget):
         fileDropped = QtCore.Signal(str)
+        pivotChanged = QtCore.Signal(float, float, float)
 
         def __init__(self):
             super().__init__()
             self.setAcceptDrops(True)
             self.setBackgroundColor((6, 8, 10, 255))
             self.setFocusPolicy(QtCore.Qt.FocusPolicy.StrongFocus)
+            self._pivot_marker = None
+            self._pivot_enabled = True
+
+        def _pick_world_position(self, logical_pos):
+            """Read the depth under the mouse and unproject it to a 3D model point."""
+            try:
+                from OpenGL.GL import glReadPixels, GL_DEPTH_COMPONENT, GL_FLOAT
+
+                self.makeCurrent()
+                self.paintGL()
+
+                dpr = float(self.devicePixelRatioF())
+                x = int(round(float(logical_pos.x()) * dpr))
+                y = int(round((float(self.height()) - float(logical_pos.y()) - 1.0) * dpr))
+                vw = max(1, int(self.deviceWidth()))
+                vh = max(1, int(self.deviceHeight()))
+                x = max(0, min(vw - 1, x))
+                y = max(0, min(vh - 1, y))
+
+                depth_raw = glReadPixels(x, y, 1, 1, GL_DEPTH_COMPONENT, GL_FLOAT)
+                depth = float(np.asarray(depth_raw).reshape(-1)[0])
+                if not np.isfinite(depth) or depth >= 0.999999:
+                    return None
+
+                ndc_x = (2.0 * (x + 0.5) / vw) - 1.0
+                ndc_y = (2.0 * (y + 0.5) / vh) - 1.0
+                ndc_z = (2.0 * depth) - 1.0
+
+                combo = self.projectionMatrix() * self.viewMatrix()
+                inv, ok = combo.inverted()
+                if not ok:
+                    return None
+
+                world4 = inv.map(QtGui.QVector4D(ndc_x, ndc_y, ndc_z, 1.0))
+                w = float(world4.w())
+                if abs(w) < 1e-10:
+                    return None
+                return QtGui.QVector3D(
+                    float(world4.x() / w),
+                    float(world4.y() / w),
+                    float(world4.z() / w),
+                )
+            except Exception:
+                return None
+
+        def _set_orbit_pivot(self, pivot):
+            """Make the clicked 3D point the orbit center while keeping camera position."""
+            try:
+                old_cam = self.cameraPosition()
+                vx = float(old_cam.x() - pivot.x())
+                vy = float(old_cam.y() - pivot.y())
+                vz = float(old_cam.z() - pivot.z())
+                dist = max(1e-6, math.sqrt(vx * vx + vy * vy + vz * vz))
+                elev = math.degrees(math.asin(max(-1.0, min(1.0, vz / dist))))
+                azim = math.degrees(math.atan2(vy, vx))
+
+                self.opts["center"] = QtGui.QVector3D(pivot)
+                self.opts["distance"] = dist
+                self.opts["elevation"] = elev
+                self.opts["azimuth"] = azim
+                self._show_pivot_marker(pivot)
+                self.pivotChanged.emit(float(pivot.x()), float(pivot.y()), float(pivot.z()))
+                self.update()
+            except Exception:
+                pass
+
+        def _show_pivot_marker(self, pivot):
+            try:
+                if self._pivot_marker is not None:
+                    self.removeItem(self._pivot_marker)
+            except Exception:
+                pass
+            pos = np.asarray([[pivot.x(), pivot.y(), pivot.z()]], dtype=np.float32)
+            self._pivot_marker = gl.GLScatterPlotItem(
+                pos=pos,
+                color=(0.66, 1.0, 0.18, 0.95),
+                size=9.0,
+                pxMode=True,
+            )
+            self._pivot_marker.setGLOptions("translucent")
+            self.addItem(self._pivot_marker)
+
+        def clearPivot(self):
+            if self._pivot_marker is not None:
+                try:
+                    self.removeItem(self._pivot_marker)
+                except Exception:
+                    pass
+                self._pivot_marker = None
+
+        def mousePressEvent(self, ev):
+            # Ctrl+왼쪽은 기존 pan. 일반 왼쪽 클릭은 그 표면점을 회전축으로 잡는다.
+            if (
+                self._pivot_enabled
+                and ev.button() == QtCore.Qt.MouseButton.LeftButton
+                and not (ev.modifiers() & QtCore.Qt.KeyboardModifier.ControlModifier)
+            ):
+                lpos = ev.position() if hasattr(ev, "position") else ev.localPos()
+                pivot = self._pick_world_position(lpos)
+                if pivot is not None:
+                    self._set_orbit_pivot(pivot)
+            super().mousePressEvent(ev)
 
         def dragEnterEvent(self, event):
             urls = event.mimeData().urls()
@@ -295,6 +398,11 @@ def gui_main():
 
             self.viewer = Viewer()
             self.viewer.fileDropped.connect(self.load_step)
+            self.viewer.pivotChanged.connect(
+                lambda x, y, z: self.statusBar().showMessage(
+                    f"회전 중심: X {x:.2f}  Y {y:.2f}  Z {z:.2f} mm"
+                )
+            )
             content.addWidget(self.viewer, 1)
 
             toolbar = QtWidgets.QFrame()
@@ -332,7 +440,7 @@ def gui_main():
             outer.addLayout(content, 1)
 
             self.empty_label = QtWidgets.QLabel("STEP / STP 파일을 끌어놓거나 ‘파일 열기’를 누르세요\n"
-                                                "회전: 왼쪽 드래그  ·  이동: Ctrl+왼쪽 드래그  ·  확대: 휠")
+                                                "회전: 모델을 클릭한 채 드래그  ·  이동: Ctrl+왼쪽 드래그  ·  확대: 휠")
             self.empty_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
             self.empty_label.setAttribute(QtCore.Qt.WidgetAttribute.WA_TransparentForMouseEvents, True)
             self.empty_label.setObjectName("EmptyHint")
@@ -378,6 +486,7 @@ def gui_main():
                 self.load_step(p)
 
         def clear_model(self):
+            self.viewer.clearPivot()
             for item in self.mesh_items + self.edge_items:
                 try:
                     self.viewer.removeItem(item)
