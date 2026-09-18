@@ -1,4 +1,4 @@
-name: Native STEP Viewer Build Test
+name: Build Native STEP Viewer v0.3.0
 
 on:
   push:
@@ -9,22 +9,112 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  build:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: native-step-viewer-build-v030
-      - name: Write marker
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          pip install "cadquery==2.6.1" "PySide6==6.9.1" "pyqtgraph==0.13.7" "PyOpenGL==3.1.9" "pyinstaller==6.15.0"
+
+      - name: Source syntax check
+        shell: pwsh
+        run: |
+          python -m py_compile native-step-viewer/app.py
+
+      - name: Generate STEP smoke-test model
+        shell: pwsh
+        run: |
+          @'
+          import cadquery as cq
+          model = cq.Workplane("XY").box(20, 30, 10).edges().fillet(1.5)
+          cq.exporters.export(model, "native-step-viewer/sample.step")
+          '@ | python -
+
+      - name: Parser self-test before packaging
+        shell: pwsh
+        run: |
+          python native-step-viewer/app.py --selftest native-step-viewer/sample.step | Tee-Object native-step-viewer/selftest-source.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Build Windows native app
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --clean --onedir --windowed --name CapsuleSTEPViewer --collect-all OCP --collect-all cadquery --collect-all pyqtgraph --hidden-import OpenGL --distpath native-step-viewer/dist --workpath native-step-viewer/build --specpath native-step-viewer native-step-viewer/app.py
+
+      - name: Packaged EXE self-test
+        shell: pwsh
+        run: |
+          $exe = "native-step-viewer/dist/CapsuleSTEPViewer/CapsuleSTEPViewer.exe"
+          & $exe --selftest native-step-viewer/sample.step | Tee-Object native-step-viewer/selftest-packaged.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $txt = Get-Content native-step-viewer/selftest-packaged.txt -Raw
+          if ($txt -notmatch '"ok": true') { throw "Packaged self-test did not report ok=true" }
+
+      - name: Install Inno Setup
+        shell: pwsh
+        run: |
+          choco install innosetup -y --no-progress
+
+      - name: Build installer
+        shell: pwsh
+        run: |
+          Push-Location native-step-viewer
+          & "C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe" installer.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Pop-Location
+
+      - name: Create portable package
+        shell: pwsh
+        run: |
+          $dist = "native-step-viewer/dist"
+          Compress-Archive -Path "$dist/CapsuleSTEPViewer" -DestinationPath "$dist/CapsuleSTEPViewer_Portable_v0.3.0.zip" -Force
+          @(
+            "CapsuleDesign STEP Viewer v0.3.0",
+            "",
+            "Native Windows x64 desktop viewer",
+            "Qt + OpenGL + OCCT(CadQuery)",
+            "No browser / No WebView / No localhost",
+            "",
+            "This build passed:",
+            "- Python source syntax check",
+            "- STEP generation test",
+            "- STEP parser self-test",
+            "- Packaged Windows EXE self-test"
+          ) | Set-Content -Encoding UTF8 "$dist/README_NATIVE.txt"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CapsuleSTEPViewer-v0.3.0-Native
+          path: |
+            native-step-viewer/dist/CapsuleDesign_STEPViewer_Setup_v0.3.0.exe
+            native-step-viewer/dist/CapsuleSTEPViewer_Portable_v0.3.0.zip
+            native-step-viewer/dist/README_NATIVE.txt
+            native-step-viewer/selftest-source.txt
+            native-step-viewer/selftest-packaged.txt
+          retention-days: 7
+
+      - name: Record run id and result
+        if: always()
         shell: pwsh
         run: |
           @(
             "run_id=${{ github.run_id }}",
-            "sha=${{ github.sha }}",
-            "runner=windows"
+            "status=${{ job.status }}",
+            "sha=${{ github.sha }}"
           ) | Set-Content -Encoding ASCII "RUN_ID.txt"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add RUN_ID.txt
-          git commit -m "Build marker [skip ci]"
-          git push origin HEAD:native-step-viewer-build-v030
+          git commit -m "Native viewer build result [skip ci]"
+          if ($LASTEXITCODE -eq 0) { git push origin HEAD:native-step-viewer-build-v030 }
