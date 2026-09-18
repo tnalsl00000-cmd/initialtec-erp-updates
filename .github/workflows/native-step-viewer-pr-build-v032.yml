@@ -80,11 +80,10 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           Pop-Location
 
-      - name: Create portable package
+      - name: Write release notes
         shell: pwsh
         run: |
           $dist = "native-step-viewer/dist"
-          Compress-Archive -Path "$dist/CapsuleSTEPViewer" -DestinationPath "$dist/CapsuleSTEPViewer_Portable_v0.3.2.zip" -Force
           @(
             "CapsuleDesign STEP Viewer v0.3.2",
             "",
@@ -105,10 +104,9 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: CapsuleSTEPViewer-v0.3.2-PivotOrbit
+          name: CapsuleSTEPViewer-v0.3.2-InstallerOnly
           path: |
             native-step-viewer/dist/CapsuleDesign_STEPViewer_Setup_v0.3.2.exe
-            native-step-viewer/dist/CapsuleSTEPViewer_Portable_v0.3.2.zip
             native-step-viewer/dist/README_NATIVE.txt
             native-step-viewer/selftest-source.txt
             native-step-viewer/selftest-packaged.txt
