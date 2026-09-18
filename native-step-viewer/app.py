@@ -58,7 +58,42 @@ def _mesh_and_stats(path, linear_tol=None, angular_tol=0.15):
         verts = np.asarray([[float(v.x), float(v.y), float(v.z)] for v in vertices], dtype=np.float32)
         faces = np.asarray(triangles, dtype=np.uint32)
         if len(verts) and len(faces):
-            all_meshes.append((f"Body {index + 1}", verts, faces))
+            # STEP의 실제 B-Rep 모서리만 별도로 샘플링한다.
+            # 삼각분할 mesh의 내부 edge는 표시하지 않는다.
+            edge_segments = []
+            edge_deflection = max(0.02, min(0.12, local_tol * 0.55))
+            try:
+                for edge in shape.Edges():
+                    try:
+                        pts, _ = edge.sample(float(edge_deflection))
+                    except Exception:
+                        pts = [edge.startPoint(), edge.endPoint()]
+                    if len(pts) < 2:
+                        continue
+                    for a, b in zip(pts[:-1], pts[1:]):
+                        edge_segments.append(
+                            [
+                                [float(a.x), float(a.y), float(a.z)],
+                                [float(b.x), float(b.y), float(b.z)],
+                            ]
+                        )
+                    if edge.IsClosed() and len(pts) > 2:
+                        a, b = pts[-1], pts[0]
+                        edge_segments.append(
+                            [
+                                [float(a.x), float(a.y), float(a.z)],
+                                [float(b.x), float(b.y), float(b.z)],
+                            ]
+                        )
+            except Exception:
+                edge_segments = []
+
+            edges_np = (
+                np.asarray(edge_segments, dtype=np.float32).reshape(-1, 3)
+                if edge_segments
+                else np.empty((0, 3), dtype=np.float32)
+            )
+            all_meshes.append((f"Body {index + 1}", verts, faces, edges_np))
 
     if not all_meshes:
         raise RuntimeError("형상은 읽었지만 화면에 표시할 삼각망을 만들지 못했습니다.")
@@ -66,7 +101,7 @@ def _mesh_and_stats(path, linear_tol=None, angular_tol=0.15):
     return {
         "meshes": all_meshes,
         "body_count": len(all_meshes),
-        "triangle_count": int(sum(len(f) for _, _, f in all_meshes)),
+        "triangle_count": int(sum(len(f) for _, _, f, _ in all_meshes)),
         "volume_mm3": total_volume,
         "area_mm2": total_area,
         "bounds": (xmin, xmax, ymin, ymax, zmin, zmax),
@@ -368,7 +403,7 @@ def gui_main():
                 face_color = (0.90, 0.92, 0.99, 1.0)
                 edge_color = (0.32, 0.37, 0.48, 0.62)
 
-                for name, verts, faces in data["meshes"]:
+                for name, verts, faces, edge_segments in data["meshes"]:
                     md = gl.MeshData(vertexes=verts, faces=faces)
 
                     face = gl.GLMeshItem(
@@ -380,15 +415,18 @@ def gui_main():
                     self.viewer.addItem(face)
                     self.mesh_items.append(face)
 
-                    edge = gl.GLMeshItem(
-                        meshdata=md, smooth=False,
-                        color=(0.0, 0.0, 0.0, 0.0),
-                        edgeColor=edge_color,
-                        drawEdges=True, drawFaces=False
-                    )
-                    edge.setGLOptions("translucent")
-                    self.viewer.addItem(edge)
-                    self.edge_items.append(edge)
+                    # 삼각분할 선이 아니라 STEP 원본의 실제 B-Rep 모서리만 표시한다.
+                    if len(edge_segments):
+                        edge = gl.GLLinePlotItem(
+                            pos=edge_segments,
+                            color=edge_color,
+                            width=1.05,
+                            antialias=True,
+                            mode="lines",
+                        )
+                        edge.setGLOptions("translucent")
+                        self.viewer.addItem(edge)
+                        self.edge_items.append(edge)
 
                 self.model_data = data
                 self.current_path = path
