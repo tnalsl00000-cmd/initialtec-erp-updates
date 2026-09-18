@@ -3,7 +3,7 @@ name: Build Native STEP Viewer v0.3.0
 on:
   push:
     branches:
-      - native-step-viewer-build-v030
+      - native-step-viewer-build-v030b
 
 permissions:
   contents: write
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: native-step-viewer-build-v030
+          ref: native-step-viewer-build-v030b
 
       - uses: actions/setup-python@v5
         with:
@@ -116,4 +116,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add RUN_ID.txt
           git commit -m "Native viewer build result [skip ci]"
-          if ($LASTEXITCODE -eq 0) { git push origin HEAD:native-step-viewer-build-v030 }
+          if ($LASTEXITCODE -eq 0) { git push origin HEAD:native-step-viewer-build-v030b }
