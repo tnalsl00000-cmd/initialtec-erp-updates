@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.128",
-  "builtAt": "2026-09-23 05:30:57",
-  "sizeBytes": 4433613,
-  "notes": "기계 상세정보의 최근 ERP 생산실적·생산이력에서 제품명이 비는 기록을 생산오더 및 같은 날짜의 확정 가능한 일생산 기록으로 보완 표시하도록 수정했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.128.zip",
-  "sha256": "215BC0D9DAB71E1036781AB7B04ED45D91D0343005975D73A41777611879ED26"
+  "version": "1.1.129",
+  "builtAt": "2026-09-23 05:39:59",
+  "sizeBytes": 4433535,
+  "notes": "기계 상세정보의 현재 ERP 생산이력 제품명을 기계생산 등록 때 저장된 생산오더에서 직접 가져오도록 수정했습니다. 과거엑셀 이력은 변경하지 않습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.129.zip",
+  "sha256": "C8944B203EAA3AB2AAD1CAB49FA7B9B86D49D8AD5EF1CD02D951827A9A2D2276"
 }
