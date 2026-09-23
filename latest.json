@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.125",
-  "builtAt": "2026-09-23 04:25:21",
-  "sizeBytes": 4432695,
-  "notes": "출고등록 목록에서 출고가능 수량이 0인 오더는 숨기고, 실제 출고 가능한 오더만 표시하도록 수정했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.125.zip",
-  "sha256": "1F66CDBAE3F754C0B23C5C73B77E8F0E6CD0FDA89D27AEB6BBE440FBC5976ED7"
+  "version": "1.1.126",
+  "builtAt": "2026-09-23 05:09:52",
+  "sizeBytes": 4433530,
+  "notes": "근태·급여 가독성과 입력 동선을 개선하고, 관리자 메뉴·거래명세표 인장칸·바로가기 간격·일생산 원자재 등록 흐름을 정리했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.126.zip",
+  "sha256": "8354F72D33B6BD8E888FD57B54E1598555C4AD487857DDD207D3AB4D04298F0D"
 }
