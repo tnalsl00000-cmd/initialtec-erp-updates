@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.122",
-  "builtAt": "2026-09-17 04:46:30",
-  "sizeBytes": 4425112,
-  "notes": "거래명세표 납품자 칸의 인 위치를 고정 앵커로 바꾸고, 대표자 인장을 이름 조건 없이 해당 위치에 직접 겹쳐 표시하도록 수정했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.122.zip",
-  "sha256": "E36B65CE695EF5E02299FDDD053FF0D3D9855E382A23E2864AB97FB4D2528A41"
+  "version": "1.1.124",
+  "builtAt": "2026-09-23 04:18:37",
+  "sizeBytes": 4432713,
+  "notes": "위험성평가 새 평가 작성 시 이니셜티 2024 기존 평가내용을 기본 자동입력하고, 입력화면과 흑백 출력 흐름을 정리했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.124.zip",
+  "sha256": "FC001BAC3400882781769FAE06DC91496A201FB618804EB16CD93A527C5A6C5A"
 }
