@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.130",
-  "builtAt": "2026-09-23 05:49:00",
-  "sizeBytes": 4433513,
-  "notes": "기계 상세정보의 ERP 생산이력과 과거엑셀 이력을 별도 탭으로 분리하고, ERP 이력 제품명은 저장된 생산오더를 직접 연결해 표시하도록 다시 구성했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.130.zip",
-  "sha256": "663E8D4265AD2E776ECE41E2D22CC80C5A186CCF7E3B9C322E5C8470C7EAE7E0"
+  "version": "1.1.131",
+  "builtAt": "2026-09-23 06:02:26",
+  "sizeBytes": 4433500,
+  "notes": "기계 상세정보 ERP 생산이력의 제품명이 빈칸으로 보이던 WPF 컬럼 바인딩 문제를 수정하고, 연결 생산오더의 제품명을 정상 표시하도록 수정했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.131.zip",
+  "sha256": "BB49773D20AB7091F8B46727089ED223B6A59ECC2A828AA9646ACCFBAD72ED04"
 }
