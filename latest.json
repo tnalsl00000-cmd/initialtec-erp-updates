@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.126",
-  "builtAt": "2026-09-23 05:09:52",
-  "sizeBytes": 4433530,
-  "notes": "근태·급여 가독성과 입력 동선을 개선하고, 관리자 메뉴·거래명세표 인장칸·바로가기 간격·일생산 원자재 등록 흐름을 정리했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.126.zip",
-  "sha256": "8354F72D33B6BD8E888FD57B54E1598555C4AD487857DDD207D3AB4D04298F0D"
+  "version": "1.1.127",
+  "builtAt": "2026-09-23 05:21:53",
+  "sizeBytes": 4433536,
+  "notes": "3.3% 직원의 소득세·지방소득세를 자동계산값보다 각각 10원 낮게 적용하고, 급여명세서에서 10원 단위 +/- 조정 버튼을 추가했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.127.zip",
+  "sha256": "E5D6F0857A92BD4D23683E9ACB104366DB111CDBC9F3D9BAA392BE43ED88EF76"
 }
