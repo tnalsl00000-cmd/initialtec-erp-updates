@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.133",
-  "builtAt": "2026-09-23 06:20:55",
-  "sizeBytes": 4433810,
-  "notes": "기계 상세정보 ERP 생산이력 컬럼을 재정리하고 상/하 필름 LOT와 누적수량을 추가했으며, 연결 생산오더 창에 기계별 보기 필터를 추가했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.133.zip",
-  "sha256": "F9B1B5F9760DA597FD5FCB2746088B0A733294E5F8AC3EE3DA2457B166587C15"
+  "version": "1.1.134",
+  "builtAt": "2026-09-25 17:51:46",
+  "sizeBytes": 4442766,
+  "notes": "통계 화면을 전면 개편해 생산·기계·품목·불량·재고·매입·출고 실적을 기간/기계/품목/거래처별로 조회하고, 요약 카드·전년 대비·막대/곡선 그래프·상세표를 추가했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.134.zip",
+  "sha256": "0686D03503C65D538FD55DC2AC6ACCC269EC01BE02824B1268721BD72806165F"
 }
