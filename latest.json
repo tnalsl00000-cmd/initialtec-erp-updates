@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.136",
-  "builtAt": "2026-09-27 13:08:37",
-  "sizeBytes": 4447699,
-  "notes": "Firebase 동기화를 행 단위로 개선했습니다. 변경된 테이블 전체를 다시 읽지 않고 revision 변경로그를 따라 실제 변경된 문서만 받아 Firestore 읽기 사용량을 크게 줄였습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.136.zip",
-  "sha256": "4502615F6E62CA38A4547EF1E5EBAB4209F4D07AE36008C51E52237579968952"
+  "version": "1.1.137",
+  "builtAt": "2026-09-27 13:22:36",
+  "sizeBytes": 4452379,
+  "notes": "스케쥴 달력에 대한민국 공휴일을 자동 표시합니다. 설날·추석 등 음력 공휴일과 대체공휴일, 제헌절·노동절 및 확정 선거일을 포함해 공휴일 이름과 적색 배경을 표시합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.137.zip",
+  "sha256": "99D6719458B7A5A6F0B7AC48C7C36C1AB8616695A6C53E9A73021A534D97C51A"
 }
