@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.135",
-  "builtAt": "2026-09-27 12:14:44",
-  "sizeBytes": 4442829,
-  "notes": "ERP 화면의 오더 용어를 수주로 통일했습니다. 생산오더 메뉴는 수주현황으로 변경하고, 수주등록일·수주수량·수주상태·수주 프로젝트 등 관련 표현을 일괄 정리했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.135.zip",
-  "sha256": "AEDE845F6D420B2FACDB90E9070A38A564B6FF321B62B4ABCC6FE15E89B7AA2F"
+  "version": "1.1.136",
+  "builtAt": "2026-09-27 13:08:37",
+  "sizeBytes": 4447699,
+  "notes": "Firebase 동기화를 행 단위로 개선했습니다. 변경된 테이블 전체를 다시 읽지 않고 revision 변경로그를 따라 실제 변경된 문서만 받아 Firestore 읽기 사용량을 크게 줄였습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.136.zip",
+  "sha256": "4502615F6E62CA38A4547EF1E5EBAB4209F4D07AE36008C51E52237579968952"
 }
