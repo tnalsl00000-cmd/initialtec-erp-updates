@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.134",
-  "builtAt": "2026-09-25 17:51:46",
-  "sizeBytes": 4442766,
-  "notes": "통계 화면을 전면 개편해 생산·기계·품목·불량·재고·매입·출고 실적을 기간/기계/품목/거래처별로 조회하고, 요약 카드·전년 대비·막대/곡선 그래프·상세표를 추가했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.134.zip",
-  "sha256": "0686D03503C65D538FD55DC2AC6ACCC269EC01BE02824B1268721BD72806165F"
+  "version": "1.1.135",
+  "builtAt": "2026-09-27 12:14:44",
+  "sizeBytes": 4442829,
+  "notes": "ERP 화면의 오더 용어를 수주로 통일했습니다. 생산오더 메뉴는 수주현황으로 변경하고, 수주등록일·수주수량·수주상태·수주 프로젝트 등 관련 표현을 일괄 정리했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.135.zip",
+  "sha256": "AEDE845F6D420B2FACDB90E9070A38A564B6FF321B62B4ABCC6FE15E89B7AA2F"
 }
