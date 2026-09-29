@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.141",
-  "builtAt": "2026-09-29 06:00:02",
-  "sizeBytes": 4433586,
-  "notes": "위험성평가를 이니셜텍 실제 공정 기준으로 전면 재구성했습니다. 캡슐세제·식기세척타블렛세제·드라이시트 실제 평가행 13건을 반영하고, 보관용 A4 평가표와 현장 게시용 문서를 바로 미리보기·인쇄할 수 있습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.141.zip",
-  "sha256": "23CB7809578B202FA71713FD23B02E61BBFA51A8CBF08521703948C3642DBA31"
+  "version": "1.1.142",
+  "builtAt": "2026-09-29 06:56:29",
+  "sizeBytes": 4424209,
+  "notes": "위험성평가 기능을 ERP에서 제거했습니다. 위험성평가는 별도 Google 스프레드시트로 관리합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.142.zip",
+  "sha256": "14C714396A2D171AA1032180FA0B09EE3F423559F191323F1247715371086F7B"
 }
