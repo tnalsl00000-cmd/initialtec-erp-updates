@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.137",
-  "builtAt": "2026-09-27 13:22:36",
-  "sizeBytes": 4452379,
-  "notes": "스케쥴 달력에 대한민국 공휴일을 자동 표시합니다. 설날·추석 등 음력 공휴일과 대체공휴일, 제헌절·노동절 및 확정 선거일을 포함해 공휴일 이름과 적색 배경을 표시합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.137.zip",
-  "sha256": "99D6719458B7A5A6F0B7AC48C7C36C1AB8616695A6C53E9A73021A534D97C51A"
+  "version": "1.1.138",
+  "builtAt": "2026-09-29 00:56:56",
+  "sizeBytes": 4452461,
+  "notes": "출고등록 목록에서 납품완료·출고완료 수주를 제외하고, 등록 직전에도 완료 상태를 확인합니다. 제품별 완제품 현재고 기준을 화면에 안내합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.138.zip",
+  "sha256": "579B2C1BE331D0349643877926043D980E147CC8A3FE1165991722BB93762AF2"
 }
