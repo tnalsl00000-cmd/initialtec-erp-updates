@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.142",
-  "builtAt": "2026-09-29 06:58:30",
-  "sizeBytes": 4424218,
-  "notes": "위험성평가 기능을 ERP에서 제거했습니다. 위험성평가는 별도 Google 스프레드시트로 관리합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.142.zip",
-  "sha256": "D06E48E4629363133FB32C118DDA16C1D9A70586DE5E69B5A05E05BBB536FE83"
+  "version": "1.1.143",
+  "builtAt": "2026-09-29 07:29:51",
+  "sizeBytes": 4424231,
+  "notes": "필름·롤자재 관리 화면의 현재고를 소수점 둘째 자리까지 표시하도록 정리했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.143.zip",
+  "sha256": "9E5B336D5506C506C278C3F4A38B8EFF2E9C22E199B4DB7D967F47CB2D52B457"
 }
