@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.140",
-  "builtAt": "2026-09-29 05:11:38",
-  "sizeBytes": 4433565,
+  "version": "1.1.141",
+  "builtAt": "2026-09-29 05:57:56",
+  "sizeBytes": 4433567,
   "notes": "위험성평가를 연도 중심의 단순한 구조로 전면 재구성했습니다. 고정 위험요인 7건을 자동 불러오고, 보관용 A4 평가표와 현장 게시용 문서를 바로 미리보기·인쇄할 수 있습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.140.zip",
-  "sha256": "C8AE81CE28855B344014EFFAE4ACE358D856B4D5D8F1B986863CDE8D89A5746A"
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.141.zip",
+  "sha256": "D89A85B7DF3A5E36870965480BFDE6D39CFFD2BE74AC7713C49EA93F06CCE51B"
 }
