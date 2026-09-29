@@ -2,9 +2,9 @@
   "ok": true,
   "hasUpdate": true,
   "version": "1.1.140",
-  "builtAt": "2026-09-29 02:27:35",
-  "sizeBytes": 4452737,
-  "notes": "위험성평가 보관서류·현장 게시용 요약·실시계획서를 전체 일괄 묶음으로 한 번에 미리보기·연속 인쇄·PDF 저장할 수 있습니다. 개별 출력도 유지됩니다.",
+  "builtAt": "2026-09-29 05:11:38",
+  "sizeBytes": 4433565,
+  "notes": "위험성평가를 연도 중심의 단순한 구조로 전면 재구성했습니다. 고정 위험요인 7건을 자동 불러오고, 보관용 A4 평가표와 현장 게시용 문서를 바로 미리보기·인쇄할 수 있습니다.",
   "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.140.zip",
-  "sha256": "8B2B0BD7883DB64E6D64DE700103736EB38D2D1CAAA3648CBC4D36B4B77807DE"
+  "sha256": "C8AE81CE28855B344014EFFAE4ACE358D856B4D5D8F1B986863CDE8D89A5746A"
 }
