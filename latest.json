@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.138",
-  "builtAt": "2026-09-29 00:56:56",
-  "sizeBytes": 4452461,
-  "notes": "출고등록 목록에서 납품완료·출고완료 수주를 제외하고, 등록 직전에도 완료 상태를 확인합니다. 제품별 완제품 현재고 기준을 화면에 안내합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.138.zip",
-  "sha256": "579B2C1BE331D0349643877926043D980E147CC8A3FE1165991722BB93762AF2"
+  "version": "1.1.139",
+  "builtAt": "2026-09-29 01:15:00",
+  "sizeBytes": 4452701,
+  "notes": "직원 계정에서도 관리자가 저장한 출고 검사 성적서를 미리보기·인쇄·엑셀 저장할 수 있습니다. 저장 권한은 관리자에게 유지하고 실패 메시지를 표시합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.139.zip",
+  "sha256": "192563FB8D140A30C5C5A2D3C09D84133E475E091766473B86040264893A1F87"
 }
