@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.150",
-  "builtAt": "2026-09-30 08:14:00",
-  "sizeBytes": 4427121,
-  "notes": "출고 검사 성적서 흑백·회색 디자인 개선. 제목과 표선 정돈, 판정기준 칸 확대, 미리보기·인쇄·엑셀 양식 통일.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.150.zip",
-  "sha256": "41520B47A0BFBFB5825857CF1AF291FA0DA45BF40157D2F6BE59309BD712BE8B"
+  "version": "1.1.151",
+  "builtAt": "2026-09-30 08:25:19",
+  "sizeBytes": 4427828,
+  "notes": "검사성적서 공정검사·포장검사 제목 양옆에 얇은 회색 구분선 추가. 미리보기·인쇄·엑셀 출력 반영.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.151.zip",
+  "sha256": "24EFC1769EE40B9B6B7C993121A85C367DDD7C63ACE5BF5C211812E2BFC80CDF"
 }
