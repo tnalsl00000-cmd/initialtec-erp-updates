@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.145",
-  "builtAt": "2026-09-30 01:03:29",
-  "sizeBytes": 4424523,
-  "notes": "필름·롤자재 현재고는 최대 소수점 둘째 자리까지만 표시하고 불필요한 0은 숨깁니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.145.zip",
-  "sha256": "DB8C9A797986BCAE4EC24B47C6D6B47C09E1D64AF07975BE03C611FE525AE1C5"
+  "version": "1.1.146",
+  "builtAt": "2026-09-30 01:24:58",
+  "sizeBytes": 4426437,
+  "notes": "기계생산이력 순서 고정, 수주별 최신등록만 보기 및 기계별 필터 추가.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.146.zip",
+  "sha256": "4DB6D8A067CAD98FBA00B0D41133B246FAEB0292E2137E529380B9F594F4491E"
 }
