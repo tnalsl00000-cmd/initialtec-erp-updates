@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.143",
-  "builtAt": "2026-09-29 07:29:51",
-  "sizeBytes": 4424231,
-  "notes": "필름·롤자재 관리 화면의 현재고를 소수점 둘째 자리까지 표시하도록 정리했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.143.zip",
-  "sha256": "9E5B336D5506C506C278C3F4A38B8EFF2E9C22E199B4DB7D967F47CB2D52B457"
+  "version": "1.1.145",
+  "builtAt": "2026-09-30 01:03:29",
+  "sizeBytes": 4424523,
+  "notes": "필름·롤자재 현재고는 최대 소수점 둘째 자리까지만 표시하고 불필요한 0은 숨깁니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.145.zip",
+  "sha256": "DB8C9A797986BCAE4EC24B47C6D6B47C09E1D64AF07975BE03C611FE525AE1C5"
 }
