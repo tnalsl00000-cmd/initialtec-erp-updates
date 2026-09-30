@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.149",
-  "builtAt": "2026-09-30 07:34:18",
-  "sizeBytes": 4426585,
-  "notes": "검사성적서 중량 판정기준을 기준중량 ±0.2g으로 설정. 화면·미리보기·인쇄·엑셀 저장에 적용.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.149.zip",
-  "sha256": "8863B65A11FDA0C38ADEED67A340ABC9E8CF2091AE8A3C0C2E6F24B319FCBF7F"
+  "version": "1.1.150",
+  "builtAt": "2026-09-30 08:14:00",
+  "sizeBytes": 4427121,
+  "notes": "출고 검사 성적서 흑백·회색 디자인 개선. 제목과 표선 정돈, 판정기준 칸 확대, 미리보기·인쇄·엑셀 양식 통일.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.150.zip",
+  "sha256": "41520B47A0BFBFB5825857CF1AF291FA0DA45BF40157D2F6BE59309BD712BE8B"
 }
