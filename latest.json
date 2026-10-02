@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.154",
-  "builtAt": "2026-10-02 02:44:39",
-  "sizeBytes": 4435582,
-  "notes": "전달사항으로 명칭 변경 및 수정·삭제 추가. 작성자와 관리자 관리 가능, 수정 후 미확인 강조 재표시.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.154.zip",
-  "sha256": "E4C8F75484D49619B6FB496EED63A1D56E7281156331C7B35AA21C41F47C8BA9"
+  "version": "1.1.155",
+  "builtAt": "2026-10-02 08:14:10",
+  "sizeBytes": 4438360,
+  "notes": "자재 입고 공급사별 보기 및 해당 공급사만 표시 추가. 월·검색 조건과 함께 사용하고 전체보기로 초기화.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.155.zip",
+  "sha256": "87B02D3A68C7F12C166C36E4B862FED8F6B08EB9CAC49DDEF9A3302398EC430B"
 }
