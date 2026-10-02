@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.153",
-  "builtAt": "2026-10-02 02:36:37",
-  "sizeBytes": 4433473,
-  "notes": "대시보드 비고 옆에 요청사항 추가. 모든 사용자 등록·확인, 미확인 강조 및 확인 이력 저장·동기화.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.153.zip",
-  "sha256": "8C2B215D1B7366BE012E2928EBAA23E342D953753D0E27B655947FEF4CD67EA4"
+  "version": "1.1.154",
+  "builtAt": "2026-10-02 02:44:39",
+  "sizeBytes": 4435582,
+  "notes": "전달사항으로 명칭 변경 및 수정·삭제 추가. 작성자와 관리자 관리 가능, 수정 후 미확인 강조 재표시.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.154.zip",
+  "sha256": "E4C8F75484D49619B6FB496EED63A1D56E7281156331C7B35AA21C41F47C8BA9"
 }
