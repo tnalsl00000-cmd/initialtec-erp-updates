@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.151",
-  "builtAt": "2026-09-30 08:25:19",
-  "sizeBytes": 4427828,
-  "notes": "검사성적서 공정검사·포장검사 제목 양옆에 얇은 회색 구분선 추가. 미리보기·인쇄·엑셀 출력 반영.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.151.zip",
-  "sha256": "24EFC1769EE40B9B6B7C993121A85C367DDD7C63ACE5BF5C211812E2BFC80CDF"
+  "version": "1.1.152",
+  "builtAt": "2026-10-02 01:07:08",
+  "sizeBytes": 4428230,
+  "notes": "대시보드 수주 현황에 내부 세로 스크롤 추가. 창 높이에 맞춰 표 영역 조절 및 열 제목 고정.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.152.zip",
+  "sha256": "BDEF3FA36BAF110CC9276890E93940FBC64104EB1B98225DAF1C10D5F7577023"
 }
