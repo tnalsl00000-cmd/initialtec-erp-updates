@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.163",
-  "builtAt": "2026-10-07 10:20:44 UTC",
-  "sizeBytes": 4467611,
-  "notes": "레시피 삭제 항목 자동 복원 방지. 선택 버전의 자재 교체 즉시 저장 및 기존 수주 반영. 기존 생산·재고 이력 보존.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.163.zip",
-  "sha256": "4D801F43076A8ED2A57A613685A31F6D0EAAFB38545EFB5EB6DAEA34794C9E97"
+  "version": "1.1.164",
+  "builtAt": "2026-10-07 10:31:58 UTC",
+  "sizeBytes": 4467847,
+  "notes": "일생산등록 불량 수량: 0 자동 선택 및 오른쪽 +/− 버튼으로 1씩 증감. 감소는 0까지.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.164.zip",
+  "sha256": "984EEAEDB2AF5A073164267D8EB9AAE81CEEA1FC339011AEA6121A31A913A51B"
 }
