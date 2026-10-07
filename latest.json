@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.157",
-  "builtAt": "2026-10-06 08:05:18",
-  "sizeBytes": 4447690,
-  "notes": "생산등록 부족자재·수량 안내 및 무지박스 대체 선택. 실제 사용 박스 재고 차감과 수정·삭제 시 복원.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.157.zip",
-  "sha256": "480C802F1C676BA08007C4F442986AD958FBDFA02B3B26E538DD7E6CEC17B76C"
+  "version": "1.1.159",
+  "builtAt": "2026-10-07 01:09:31",
+  "sizeBytes": 4447748,
+  "notes": "부족 박스를 표시하고 무지·무인쇄 자재를 선택해 바로 생산등록. 사용한 대체 박스 재고 차감 및 수정·삭제 복원.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.159.zip",
+  "sha256": "D54631FCE863CD2AC1B083792D2F1060AD767931333E5761C60B848DCC0A52B5"
 }
