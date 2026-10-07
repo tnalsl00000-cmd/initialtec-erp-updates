@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.166",
-  "builtAt": "2026-10-07 11:02:40 UTC",
-  "sizeBytes": 4477597,
-  "sha256": "4DA445FDC682C43348F0382F9E0F571AFE98F34109B9D738338ABC7AE602232A",
-  "notes": "엑셀 내보내기 버튼이 실제 화면에서 표시되지 않던 문제 수정. 각 표 위 버튼 표시와 화면 전환 시 표시 검증. 날짜 범위와 현재 검색 조건으로 엑셀 저장 지원.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.166.zip"
+  "version": "1.1.167",
+  "builtAt": "2026-10-07 13:27:24 UTC",
+  "sizeBytes": 4477603,
+  "sha256": "02DD7030CCBC85269AFFFB6912F5274CADD02A43A90FB8BDFA6C6C75CC50E270",
+  "notes": "통계 화면 제목을 업무용 표현인 ‘운영 통계’로 변경했습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.167.zip"
 }
