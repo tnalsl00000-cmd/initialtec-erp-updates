@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.164",
-  "builtAt": "2026-10-07 10:31:58 UTC",
-  "sizeBytes": 4467847,
-  "notes": "일생산등록 불량 수량: 0 자동 선택 및 오른쪽 +/− 버튼으로 1씩 증감. 감소는 0까지.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.164.zip",
-  "sha256": "984EEAEDB2AF5A073164267D8EB9AAE81CEEA1FC339011AEA6121A31A913A51B"
+  "version": "1.1.165",
+  "builtAt": "2026-10-07 10:53:04 UTC",
+  "sizeBytes": 4477287,
+  "sha256": "477AB4B39D223DD49166D5DDDB7FF38C4CC006C89E43649071EF72B6B71E0CBA",
+  "notes": "각 목록·이력 화면 엑셀 내보내기 추가. 현재 검색 조건 또는 불러온 전체 목록 선택, 날짜 항목과 시작·종료일 필터 지원. 불량 상세·수주 전달사항·업체 목록 및 날짜별 출퇴근 기록 포함.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.165.zip"
 }
