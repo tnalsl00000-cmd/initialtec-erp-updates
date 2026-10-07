@@ -1,0 +1,50 @@
+name: Recover ERP 1.1.157 update
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/recover-erp-1157.yml']
+permissions:
+  contents: write
+concurrency:
+  group: recover-erp-1157
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and publish completed ERP artifact
+        shell: pwsh
+        env:
+          ARTIFACT_URL: 'https://sdmntprjapaneast.oaiusercontent.com/files/00000000-1f48-8209-b658-6b340534b76d/raw?se=2026-10-07T00%3A29%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=989f1107-6a25-4b16-a008-ee8e82a79678&skoid=b1bca990-dcac-4c31-8ca1-ac563cf24c54&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A13%3A29Z&ske=2026-10-08T00%3A13%3A29Z&sks=b&skv=2026-02-06&sig=iAuQJ4UVitsrVoz1u5OOathR1%2Bs3osDyo%2Bs8IfvDau8%3D'
+        run: |
+          $ErrorActionPreference='Stop'
+          $archive=Join-Path $env:RUNNER_TEMP 'erp-1157-artifact.zip'
+          $extract=Join-Path $env:RUNNER_TEMP 'erp-1157-release'
+          Invoke-WebRequest -Uri $env:ARTIFACT_URL -OutFile $archive
+          $artifactHash=(Get-FileHash $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          if($artifactHash -ne '6cf1ea95d2d242ec39a853069cfa19025043c5b500a6a9af491bdfd1d3a43df3'){throw 'Build artifact hash mismatch'}
+          Expand-Archive -LiteralPath $archive -DestinationPath $extract
+          $manifest=Get-Content (Join-Path $extract 'latest.json') -Raw | ConvertFrom-Json
+          if($manifest.version -ne '1.1.157'){throw 'Unexpected release version'}
+          $package=Join-Path $extract 'INITIALTEC_ERP_Update_1.1.157.zip'
+          if((Get-Item $package).Length -ne $manifest.sizeBytes){throw 'Package size mismatch'}
+          if((Get-FileHash $package -Algorithm SHA256).Hash -ne $manifest.sha256){throw 'Package hash mismatch'}
+          $current=Get-Content latest.json -Raw | ConvertFrom-Json
+          if([version]$current.version -gt [version]$manifest.version){throw 'A newer release is already published'}
+          $inspect=Join-Path $env:RUNNER_TEMP 'erp-1157-package'
+          Expand-Archive -LiteralPath $package -DestinationPath $inspect
+          if((Get-Content (Join-Path $inspect 'ERP_CLIENT_VERSION.txt') -Raw).Trim() -ne '1.1.157'){throw 'Package version mismatch'}
+          if(-not(Test-Path (Join-Path $inspect 'INITIALTEC_ERP.exe'))){throw 'ERP executable missing'}
+          Copy-Item -LiteralPath $package -Destination 'INITIALTEC_ERP_Update_1.1.157.zip' -Force
+          Copy-Item -LiteralPath (Join-Path $extract 'INITIALTEC_ERP_Setup.exe') -Destination 'INITIALTEC_ERP_Setup.exe' -Force
+          Copy-Item -LiteralPath (Join-Path $extract 'latest.json') -Destination 'latest.json' -Force
+          git config user.name 'INITIALTEC ERP Builder'
+          git config user.email 'actions@users.noreply.github.com'
+          git add INITIALTEC_ERP_Update_1.1.157.zip INITIALTEC_ERP_Setup.exe latest.json
+          git diff --cached --quiet
+          if($LASTEXITCODE -eq 0){exit 0}
+          git commit -m 'release: recover ERP 1.1.157 verified build artifact'
+          if($LASTEXITCODE -ne 0){throw 'Release commit failed'}
+          git push origin main
+          if($LASTEXITCODE -ne 0){throw 'Release push failed'}
