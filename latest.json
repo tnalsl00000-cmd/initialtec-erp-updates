@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.169",
-  "builtAt": "2026-10-07 15:18:52",
-  "sizeBytes": 4483414,
-  "sha256": "3A26D3504F0346D877516BE5D5D853D3E178E0ECB89022056D3418C72263D72C",
-  "notes": "관리자에서 상위·하위 항목 선택 및 날짜 필터로 엑셀 내보내기. 각 화면 내보내기 버튼 제거. 대시보드 수주현황 텍스트 세로 중앙 정렬.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.169.zip"
+  "version": "1.1.170",
+  "builtAt": "2026-10-07 15:39:32",
+  "sizeBytes": 4483368,
+  "sha256": "72CE3BD83D466038236CF973CE882C734FC46ADB6E0F1A5FC96079B91CEBDB95",
+  "notes": "스케줄 현황 기간 설정 및 공간 통합, 대시보드 메모·최근 공지 카드 제거, 일반 버튼 테두리 강조, 모든 표 가로·세로 중앙 정렬.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.170.zip"
 }
