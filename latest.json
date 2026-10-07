@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.165",
-  "builtAt": "2026-10-07 10:53:04 UTC",
-  "sizeBytes": 4477287,
-  "sha256": "477AB4B39D223DD49166D5DDDB7FF38C4CC006C89E43649071EF72B6B71E0CBA",
-  "notes": "각 목록·이력 화면 엑셀 내보내기 추가. 현재 검색 조건 또는 불러온 전체 목록 선택, 날짜 항목과 시작·종료일 필터 지원. 불량 상세·수주 전달사항·업체 목록 및 날짜별 출퇴근 기록 포함.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.165.zip"
+  "version": "1.1.166",
+  "builtAt": "2026-10-07 11:02:40 UTC",
+  "sizeBytes": 4477597,
+  "sha256": "4DA445FDC682C43348F0382F9E0F571AFE98F34109B9D738338ABC7AE602232A",
+  "notes": "엑셀 내보내기 버튼이 실제 화면에서 표시되지 않던 문제 수정. 각 표 위 버튼 표시와 화면 전환 시 표시 검증. 날짜 범위와 현재 검색 조건으로 엑셀 저장 지원.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.166.zip"
 }
