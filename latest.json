@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.167",
-  "builtAt": "2026-10-07 13:27:24 UTC",
-  "sizeBytes": 4477603,
-  "sha256": "02DD7030CCBC85269AFFFB6912F5274CADD02A43A90FB8BDFA6C6C75CC50E270",
-  "notes": "통계 화면 제목을 업무용 표현인 ‘운영 통계’로 변경했습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.167.zip"
+  "version": "1.1.168",
+  "builtAt": "2026-10-07 13:46:34 UTC",
+  "sizeBytes": 4472347,
+  "sha256": "4964AFA4A82F8DB1AAFADF13456105BECBCC5821DA33C55B2A18DCFB0FA7869A",
+  "notes": "업무 화면의 상시 설명 문구 정리. 버튼·표 기본 스타일 통일, 엑셀 내보내기 강조, 날짜가 없는 목록의 비활성 날짜 영역 제거. 변경 전 1.1.166 설치 파일과 소스 별도 보관.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.168.zip"
 }
