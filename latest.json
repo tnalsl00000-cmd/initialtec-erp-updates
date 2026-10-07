@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.155",
-  "builtAt": "2026-10-02 08:14:10",
-  "sizeBytes": 4438360,
-  "notes": "자재 입고 공급사별 보기 및 해당 공급사만 표시 추가. 월·검색 조건과 함께 사용하고 전체보기로 초기화.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.155.zip",
-  "sha256": "87B02D3A68C7F12C166C36E4B862FED8F6B08EB9CAC49DDEF9A3302398EC430B"
+  "version": "1.1.157",
+  "builtAt": "2026-10-06 08:05:18",
+  "sizeBytes": 4447690,
+  "notes": "생산등록 부족자재·수량 안내 및 무지박스 대체 선택. 실제 사용 박스 재고 차감과 수정·삭제 시 복원.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.157.zip",
+  "sha256": "480C802F1C676BA08007C4F442986AD958FBDFA02B3B26E538DD7E6CEC17B76C"
 }
