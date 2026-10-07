@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.160",
-  "builtAt": "2026-10-07 01:17:28",
-  "sizeBytes": 4450012,
-  "notes": "불량내역 상세 화면 개선: 생산정보, 불량수량 요약, 유형별 내역 및 부자재 불량 표시.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.160.zip",
-  "sha256": "FA61297E4AE4E9F06346723539A953DED8F3248E64CB77B527B9BDDE2187A38C"
+  "version": "1.1.161",
+  "builtAt": "2026-10-07 04:26:11",
+  "sizeBytes": 4452848,
+  "notes": "발주 카톡복사 문구·줄바꿈 수정. 저장된 출고등록·고객사 정보로 출하 메시지 자동 작성·복사, 출하시간 저장.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.161.zip",
+  "sha256": "D6ECBD2F0EE2CB7553A969933FFB123091A2FD6EB11CD2AD9F5CB29C70A1441F"
 }
