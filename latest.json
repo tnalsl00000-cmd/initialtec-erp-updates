@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.161",
-  "builtAt": "2026-10-07 04:26:11",
-  "sizeBytes": 4452848,
-  "notes": "발주 카톡복사 문구·줄바꿈 수정. 저장된 출고등록·고객사 정보로 출하 메시지 자동 작성·복사, 출하시간 저장.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.161.zip",
-  "sha256": "D6ECBD2F0EE2CB7553A969933FFB123091A2FD6EB11CD2AD9F5CB29C70A1441F"
+  "version": "1.1.162",
+  "builtAt": "2026-10-07 04:34:35",
+  "sizeBytes": 4453557,
+  "notes": "레시피 발주 카톡 미리보기 추가. 원자재 기본 선택, 부자재 체크 선택, 희망납기 입력 후 메시지 복사. 출하시간 기본 오전 09:30.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.162.zip",
+  "sha256": "D33F6F111432770D3BCB9438F88B8E4A34F9DE52CD633BE0261914D9BF68EBFF"
 }
