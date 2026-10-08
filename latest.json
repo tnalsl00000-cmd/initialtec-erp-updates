@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.173",
-  "builtAt": "2026-10-08 00:54:07",
-  "sizeBytes": 4475350,
-  "notes": "완료 일정 회색 표시. 모든 표의 글자 길이에 맞춰 열 너비 자동 조정. 긴 제품명·상태·일정과 화면 아래 행도 포함.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.173.zip",
-  "sha256": "C60321E3780239F0F622E9274C8E52060CED1D54C346974E25EB2E0E0714FA62"
+  "version": "1.1.174",
+  "builtAt": "2026-10-08 01:02:00",
+  "sizeBytes": 4475308,
+  "notes": "대시보드 수주 상태에서 부분출고 문구 제거. 부분출고가 있어도 생산중으로 간결하게 표시. 누적출고 수량은 별도 칸에 유지.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.174.zip",
+  "sha256": "C99383E483E428D7B65644DF500F88E7258BBAF939EDB7997EC16E24D6D97630"
 }
