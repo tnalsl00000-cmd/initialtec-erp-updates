@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.177",
-  "builtAt": "2026-10-12 10:57:00",
-  "sizeBytes": 4488993,
-  "notes": "관리자 메뉴와 하위 화면은 마스터만 접근. Google Drive 백업 조회·수동 실행도 서버에서 활성 마스터만 허용.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.177.zip",
-  "sha256": "B78C30BEA087F9514CF81B10E5A425AEF17549F2D2CD2E6FAE6EDB3A77AED08F"
+  "version": "1.1.178",
+  "builtAt": "2026-10-12 11:40:15",
+  "sizeBytes": 4489060,
+  "notes": "관리자는 관리자 메뉴의 인원관리만 사용. 엑셀 일괄 관리·시스템/데이터·Firebase 용량·백업은 마스터 전용.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.178.zip",
+  "sha256": "9B028315A72AF99429266018AC887049264B66C719C6008779B7155DC5C8E48C"
 }
