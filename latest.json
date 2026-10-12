@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.174",
-  "builtAt": "2026-10-08 01:02:00",
-  "sizeBytes": 4475308,
-  "notes": "대시보드 수주 상태에서 부분출고 문구 제거. 부분출고가 있어도 생산중으로 간결하게 표시. 누적출고 수량은 별도 칸에 유지.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.174.zip",
-  "sha256": "C99383E483E428D7B65644DF500F88E7258BBAF939EDB7997EC16E24D6D97630"
+  "version": "1.1.175",
+  "builtAt": "2026-10-12 09:34:50",
+  "sizeBytes": 4484627,
+  "notes": "자동 DB 백업은 월 1회만 생성. 업데이트 후 이전 버전 DB 백업 영구 삭제. 스키마 버전 불일치로 백업이 반복 생성되는 문제 수정.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.175.zip",
+  "sha256": "97E27C2DBA9FD3ABC9BFC51CBF7A547C8A0791C03DA34ADA416236E4A8372BC2"
 }
