@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.175",
-  "builtAt": "2026-10-12 09:34:50",
-  "sizeBytes": 4484627,
-  "notes": "자동 DB 백업은 월 1회만 생성. 업데이트 후 이전 버전 DB 백업 영구 삭제. 스키마 버전 불일치로 백업이 반복 생성되는 문제 수정.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.175.zip",
-  "sha256": "97E27C2DBA9FD3ABC9BFC51CBF7A547C8A0791C03DA34ADA416236E4A8372BC2"
+  "version": "1.1.176",
+  "builtAt": "2026-10-12 10:16:00",
+  "sizeBytes": 4488701,
+  "notes": "Google Drive 중앙 백업: 관리자 시스템/데이터에서 지금 백업, 폴더·파일 바로 열기, 최근 백업일·용량·버전 확인. 월 1회 자동 백업 및 최신 3개 보관. 직원 PC 자동 백업과 일일기록 자동 백업 중단.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.176.zip",
+  "sha256": "825B6847824992509EAA701D06C1CF21F9FEC70AF23C879C4C4149753948D9D2"
 }
