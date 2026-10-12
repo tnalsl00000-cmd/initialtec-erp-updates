@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.176",
-  "builtAt": "2026-10-12 10:16:00",
-  "sizeBytes": 4488701,
-  "notes": "Google Drive 중앙 백업: 관리자 시스템/데이터에서 지금 백업, 폴더·파일 바로 열기, 최근 백업일·용량·버전 확인. 월 1회 자동 백업 및 최신 3개 보관. 직원 PC 자동 백업과 일일기록 자동 백업 중단.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.176.zip",
-  "sha256": "825B6847824992509EAA701D06C1CF21F9FEC70AF23C879C4C4149753948D9D2"
+  "version": "1.1.177",
+  "builtAt": "2026-10-12 10:57:00",
+  "sizeBytes": 4488993,
+  "notes": "관리자 메뉴와 하위 화면은 마스터만 접근. Google Drive 백업 조회·수동 실행도 서버에서 활성 마스터만 허용.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.177.zip",
+  "sha256": "B78C30BEA087F9514CF81B10E5A425AEF17549F2D2CD2E6FAE6EDB3A77AED08F"
 }
