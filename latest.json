@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.179",
-  "builtAt": "2026-10-13 01:14:05",
-  "sizeBytes": 4480901,
-  "notes": "레시피 관리 창의 현재고·부족수량·재고상태 열이 잘리지 않도록 표시 개선.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.179.zip",
-  "sha256": "BA7B265D7B3B163061B04FC2AD1AEEFD170F3AFE5602EA11AAE74A4945182D0D"
+  "version": "1.1.180",
+  "builtAt": "2026-10-14 08:40:32",
+  "sizeBytes": 4482566,
+  "notes": "일생산등록 시 부족자재의 재고 정정 또는 무인쇄박스 대체 선택. 정정 사유와 실제 사용 자재 기록.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.180.zip",
+  "sha256": "8A03375854A84BD6698D21E74DA7019C83AD25561DCC0BBEA53D72F334FF4647"
 }
