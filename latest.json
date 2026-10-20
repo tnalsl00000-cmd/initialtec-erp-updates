@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.180",
-  "builtAt": "2026-10-14 08:40:32",
-  "sizeBytes": 4482566,
-  "notes": "일생산등록 시 부족자재의 재고 정정 또는 무인쇄박스 대체 선택. 정정 사유와 실제 사용 자재 기록.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.180.zip",
-  "sha256": "8A03375854A84BD6698D21E74DA7019C83AD25561DCC0BBEA53D72F334FF4647"
+  "version": "1.1.181",
+  "builtAt": "2026-10-20 08:34:21",
+  "sizeBytes": 4482617,
+  "notes": "오퍼레이터의 출고 확인 권한과 성적서 저장 권한을 분리하여, 저장된 출고 검사 성적서를 권한 오류 없이 미리보기·인쇄·엑셀 출력합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.181.zip",
+  "sha256": "334C16DADB08ACE2D37FC5281264D7A149D93B58D087F4E1A7AD8F956E3680CF"
 }
