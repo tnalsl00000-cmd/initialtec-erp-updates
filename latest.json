@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.181",
-  "builtAt": "2026-10-20 08:34:21",
-  "sizeBytes": 4482617,
-  "notes": "오퍼레이터의 출고 확인 권한과 성적서 저장 권한을 분리하여, 저장된 출고 검사 성적서를 권한 오류 없이 미리보기·인쇄·엑셀 출력합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.181.zip",
-  "sha256": "334C16DADB08ACE2D37FC5281264D7A149D93B58D087F4E1A7AD8F956E3680CF"
+  "version": "1.1.182",
+  "builtAt": "2026-10-21 00:44:17",
+  "sizeBytes": 4494792,
+  "notes": "오퍼레이터 업무 권한 확대·인원관리 메뉴 숨김. 삭제자·시간·삭제 전 내용을 변경 불가 이력으로 기록합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.182.zip",
+  "sha256": "F60FED1EEA21E9B50BB35A93E852F67E26DC1285C7FA0335902FEAC10B428C40"
 }
