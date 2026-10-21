@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.184",
-  "builtAt": "2026-10-21 02:23:56",
-  "sizeBytes": 4497997,
-  "notes": "출고등록·출고일 수정 시 오더 납품일과 스케줄을 자동 연동합니다. 기존 전량 출고완료 건도 실제 출고일로 보정합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.184.zip",
-  "sha256": "BD86ED4D4605B1F124FBE41FF82CC4D4E9C3BC3AE5F5116076FE7F39CECFA053"
+  "version": "1.1.185",
+  "builtAt": "2026-10-21 04:17:58",
+  "sizeBytes": 4499132,
+  "notes": "대시보드 완료 일정 기본 숨김·완료 보기 버튼. 축소한 스케줄 아래 기계별 최근 생산 품명을 표시하고 출하·완료 수주는 현재 작업 없음으로 표시합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.185.zip",
+  "sha256": "1E17BE563429A5FC8497AC700A8877578143F264179249B38807E671F052D3E7"
 }
