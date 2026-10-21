@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.182",
-  "builtAt": "2026-10-21 00:44:17",
-  "sizeBytes": 4494792,
-  "notes": "오퍼레이터 업무 권한 확대·인원관리 메뉴 숨김. 삭제자·시간·삭제 전 내용을 변경 불가 이력으로 기록합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.182.zip",
-  "sha256": "F60FED1EEA21E9B50BB35A93E852F67E26DC1285C7FA0335902FEAC10B428C40"
+  "version": "1.1.183",
+  "builtAt": "2026-10-21 00:59:05",
+  "sizeBytes": 4496400,
+  "notes": "공장일지는 마스터만 조회·작성. 관리자·오퍼레이터 메뉴·통계·엑셀·삭제 이력에서 공장일지 내용을 보호합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.183.zip",
+  "sha256": "E1C3917F8096BB0EDE70ED44192A86036A38C26323077CB34255976C719DDF8D"
 }
