@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.186",
-  "builtAt": "2026-10-22 01:32:55",
-  "sizeBytes": 4500757,
-  "notes": "로그인 화면에 정확한 버전을 표시하고 로그인 전 새 버전을 자동 확인·업데이트·재실행합니다. 실패 시 안내와 업데이트 재시도를 제공합니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.186.zip",
-  "sha256": "47E648557EA448AFA3799C689010B0C76F10F77853C7A4D6F70F926DA4206635"
+  "version": "1.1.187",
+  "builtAt": "2026-10-26 03:25:36",
+  "sizeBytes": 4500750,
+  "notes": "대시보드의 시스템 도구와 빠른 입력 위치를 맞바꾸고, 사용 빈도가 높은 빠른 입력 버튼 영역을 약 35% 넓혔습니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.187.zip",
+  "sha256": "F6AC9189A32A43022783A14B23872D44D975AAEBF52F9870A056AE09D78B001A"
 }
