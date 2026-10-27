@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.187",
-  "builtAt": "2026-10-26 03:25:36",
-  "sizeBytes": 4500750,
-  "notes": "대시보드의 시스템 도구와 빠른 입력 위치를 맞바꾸고, 사용 빈도가 높은 빠른 입력 버튼 영역을 약 35% 넓혔습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.187.zip",
-  "sha256": "F6AC9189A32A43022783A14B23872D44D975AAEBF52F9870A056AE09D78B001A"
+  "version": "1.1.188",
+  "builtAt": "2026-10-27 04:16:45",
+  "sizeBytes": 4501382,
+  "notes": "출고등록 및 수정 화면에서 실제 파렛 수량을 직접 변경할 수 있습니다. 카톡용 출하정보와 단일·묶음 거래명세서의 제조일은 날짜형 LOT 기준으로 표시합니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.188.zip",
+  "sha256": "F8FFD37092AB7C41783C997D1769C33B44422C5527D053936E6DA84D819A5E69"
 }
