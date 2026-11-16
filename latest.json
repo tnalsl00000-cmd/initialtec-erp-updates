@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.189",
-  "builtAt": "2026-11-16 02:39:33",
-  "sizeBytes": 4501043,
-  "notes": "일생산등록에서 출고완료 전 수주를 상태와 관계없이 선택할 수 있습니다. 생산완료되었거나 수주량을 넘겨도 생산량을 추가 등록할 수 있습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.189.zip",
-  "sha256": "E3AE1E2BFBF3608F61CEEAEADBDF30A898417E8362EFB63D666BF3D5AF598B75"
+  "version": "1.1.190",
+  "builtAt": "2026-11-16 04:05:15",
+  "sizeBytes": 4501084,
+  "notes": "수주 현황의 누적출고 다음에 공장재고(누적생산 - 누적출고)를 표시합니다. 초과생산 수량도 포함됩니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.190.zip",
+  "sha256": "E247B9716B0036EC7A0074F29DAB7E625BD0C8B65BEF5C762A2A95D40C04E84F"
 }
