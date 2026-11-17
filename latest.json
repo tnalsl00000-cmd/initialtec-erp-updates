@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.190",
-  "builtAt": "2026-11-16 04:05:15",
-  "sizeBytes": 4501084,
-  "notes": "수주 현황의 누적출고 다음에 공장재고(누적생산 - 누적출고)를 표시합니다. 초과생산 수량도 포함됩니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.190.zip",
-  "sha256": "E247B9716B0036EC7A0074F29DAB7E625BD0C8B65BEF5C762A2A95D40C04E84F"
+  "version": "1.1.191",
+  "builtAt": "2026-11-17 01:12:22",
+  "sizeBytes": 4501790,
+  "notes": "출고관리 맨 왼쪽에 확인 체크박스를 추가했습니다. 체크하면 행 배경이 연한 초록색으로 바뀌며 확인 상태가 저장됩니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.191.zip",
+  "sha256": "317FF4E7BA40FF96555B9DC5FBE60F0FB9D7330AF0AA401C7BDA4CF56C702DAD"
 }
