@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.193",
-  "builtAt": "2026-11-25 00:44:27",
-  "sizeBytes": 4502609,
-  "notes": "급여지급명세서의 음수 공제액이 공제 합계와 실지급액에 반영됩니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.193.zip",
-  "sha256": "C78BC4235BE1A66CF07438E76D5917881747B583986B16E8118526E9D55F9CB4"
+  "version": "1.1.194",
+  "builtAt": "2026-11-25 01:10:10",
+  "sizeBytes": 4503816,
+  "notes": "4대보험 공제액을 자동 계산하고 직접 수정할 수 있습니다. 급여명세서의 음수 지급 항목도 지급 합계와 실지급액에 반영됩니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.194.zip",
+  "sha256": "69E767038AB14CAF683F8CD82F9A13F2D550815456C8B2EF516A62BAF6B5E8B7"
 }
