@@ -1,10 +1,10 @@
 {
   "ok": true,
   "hasUpdate": true,
-  "version": "1.1.192",
-  "builtAt": "2026-11-23 03:33:31",
-  "sizeBytes": 4502674,
-  "notes": "필름·롤자재 관리에서 선택한 자재를 바로 입고 등록하고 현재고를 확인할 수 있습니다.",
-  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.192.zip",
-  "sha256": "52A748ED21BC005F7C1FC713C58425E2863BAB0112C08288D93073282DFB5EFC"
+  "version": "1.1.193",
+  "builtAt": "2026-11-25 00:44:27",
+  "sizeBytes": 4502609,
+  "notes": "급여지급명세서의 음수 공제액이 공제 합계와 실지급액에 반영됩니다.",
+  "packageUrl": "https://raw.githubusercontent.com/tnalsl00000-cmd/initialtec-erp-updates/main/INITIALTEC_ERP_Update_1.1.193.zip",
+  "sha256": "C78BC4235BE1A66CF07438E76D5917881747B583986B16E8118526E9D55F9CB4"
 }
